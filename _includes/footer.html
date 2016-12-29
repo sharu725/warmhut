@@ -1,0 +1,30 @@
+<footer class="center-text">
+    <div class="flex-panel">
+      <div class="flex-item trio">
+        <p>{{ site.description | escape }}</p>
+      </div>
+
+      <div class="flex-item trio">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% endif %}
+            </li>
+            {% if site.email %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
+      <div class="flex-item trio">
+        <a href = 'https://web.facebook.com/warmhutpr/' target = '_blank'><i class='fa fa-facebook facebook' aria-hidden='true'></i></a>
+        <a href = 'https://twitter.com/warmhutGroup' target = '_blank'><i class='fa fa-twitter twitter' aria-hidden='true'></i></a>   
+      </div>
+    </div>
+    <p class = 'center-text'>
+      &copy; 2016 WarmHut - All rights reserved.
+    </p>
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js' integrity='sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s='   crossorigin='anonymous'></script>
+    <script src="https://use.fontawesome.com/df6b169964.js"></script>
+  <script src = '{{site.baseurl}}/assets/index.js'></script>
+</footer>

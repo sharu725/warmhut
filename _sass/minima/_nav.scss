@@ -1,0 +1,137 @@
+header{
+  background:#000;
+  color:#fff;
+  text-align:center;
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:499;
+  text-transform:uppercase;
+}
+header nav{
+  position:relative;
+}
+header a{
+  display:block;
+  width:100%;
+  text-transform:inherit;
+}
+.nav-menu{
+ width:1px;
+ height:0;
+ overflow:hidden;
+ transition:width 0.4s ease-in-out;
+ font-family:'Source Sans Pro';
+}
+.nav-brand{
+  min-height:72px;
+}
+.nav-menu li,
+.nav-brand{
+  padding:17.5px 0 12.5px 0;
+  transition: color 0.4s ease-out;
+}
+.nav-menu li:hover{
+  color:#fff;
+}
+.nav-brand{
+  padding:2.5px 0;
+}
+.nav-brand,
+.nav-menu{
+  vertical-align:text-top;
+}
+.nav-brand img{
+  width:180px;
+  margin:0 0 0 25px;
+}
+.view-menu{
+  position:absolute;
+  right:25px;
+  top:10px;
+  padding:7.5px 0;
+  cursor:pointer;
+}
+.nav-brand{
+  text-align:left;
+  width:80%;
+}
+.menu-open{
+  display:block;
+  width:98%;
+  background:#fff;
+  color:#222;
+  height:100vh;
+  padding:0 20px;
+  overflow:scroll;
+}
+.menu-open li{
+  border-bottom:0.5px solid #888;
+  text-align:left;
+  padding:35px 0 10px 35px;
+  transition:background 0.3s ease-in-out;
+}
+.menu-open li:first-child{
+  margin-top:30px;
+}
+.menu-open li:hover{
+  background:#000;
+}
+.icon-menu{
+  font-size:1.5em;
+  color:#14CC33;
+}
+
+.sub-menu{
+    position:absolute;
+    width:250px;
+    background-color:#000;
+    top:75px;
+    text-transform:capitalize;
+    // display:none;
+}
+.sub-menu a{
+    text-align:left;
+    padding-left:15px;
+}
+.parent-link{
+  position:relative;
+}
+.parent-link:hover > .sub-menu,
+.sub-menu:hover{
+    display:initial;
+}
+.sub-menu li{
+    width:100%;
+    display:block;
+}
+@media screen and (min-width:768px){
+  header [class^='icon-'],
+  .view-menu{
+    display:none;
+  }
+  .nav-brand,
+  .nav-menu{
+     display: inline-block;
+   }
+   .nav-menu{
+     width:75%;
+     height:initial;
+     text-align:right;
+     padding-right:50px;
+   }
+   .nav-brand{
+     width:22.5%;
+     text-align:left;
+     padding-left:25px;
+   }
+   .nav-menu li{
+     text-align:center;
+     display:inline-block;
+     min-width:100px;
+     transition:color 0.3s ease-in-out;
+   }
+   .nav-menu  li:hover > a{
+     color:#FF8600;
+   }
+}

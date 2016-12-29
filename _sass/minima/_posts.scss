@@ -1,0 +1,53 @@
+
+.tripple{
+    width:100%;
+}
+aside{
+    padding: 25px;
+}
+.post{
+margin:0 auto;
+padding:15px 25px;
+}
+.post h1,
+.post h2{
+    margin:0 auto;
+    padding:15px;
+}
+.blog,.post{
+    min-height:96vh;
+}
+.blog .intro{
+    background-color:#000;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    min-height:50vh;
+    color:white;
+    width:100%;
+    font-size:125%;
+}
+.blog .intro h1{
+    color:#14cc33;
+}
+.blog .flex-panel{
+padding:0;
+}
+.intro .overlay{
+    min-height:50vh;
+    padding:35px 50px;
+}
+.post-list h3{
+    text-align:left;
+    color:#000;
+    padding-left:0;
+}
+.post-list li{
+    background:#f9f9f9;
+    padding:15px;
+    margin:20px;
+}
+.blog .tripple,
+.blog .trio{
+    padding:0;
+}

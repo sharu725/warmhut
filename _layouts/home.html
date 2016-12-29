@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<section class = 'blog about'>
+  <div class = 'flex-panel land'>
+    <div class = 'intro center-text'><div class = 'overlay'>{{ content }}</div></div>
+  </div>
+  <div class = 'flex-panel'>
+      <div class = 'flex-item tripple'>
+          <h2>Featured Posts</h2>
+          <ul class="post-list">
+            {% for post in site.posts %}
+            <li>
+              <p class="post-meta">{{ post.date | date: "%-d %b" }}</p>
+              <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h3>
+              {{ post.excerpt }}
+            </li>
+            {% endfor %}
+          </ul>
+      </div>
+      <aside class = 'flex-item trio'>
+        <h2>All Articles</h2>
+        <ul class="post-list">
+          {% for post in site.posts %}
+            <li>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <h3>Recent Tweets</h3>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      </aside>
+  </div>
+</section>
