@@ -124,10 +124,10 @@ img{
 .overlay{
   display:block;
   width:100%;
-  min-height:100vh;
+  height:auto;
+  min-height:100%;
   z-index:3;
   position:relative;
-  overflow:auto;
 }
 .facebook,
 .twitter{
