@@ -1,6 +1,6 @@
 (function() {
    'use strict';
-    var bot, input, url, message, email, name, banner;
+    var bot, input, url, message, email, name, banner, year;
     $(function() {
         $('.view-menu').on('click', function(){
           $(this).siblings('.nav-menu').toggleClass('menu-open');
@@ -35,6 +35,9 @@
           }
         });
     });
+
+    year = new Date();
+    $('.thisYear').append(year.getFullYear());
 })();
 
 var Bubbles = (function () {
