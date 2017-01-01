@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="description" content="{{ page.excerpt | default: page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <link rel = 'icon' type = 'image/ico' sizes = '32X32' href = '{{site.baseurl}}/assets/icons/favicon.ico'>
   <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro:300,400" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
@@ -23,8 +23,10 @@
          background-image:url({{site.baseurl}}/assets/layout/creative.jpg);
       }
       .blog .intro,
-      .widget{
-        background-image:url({{site.baseurl}}/assets/layout/stardust.png);
+      .widget,
+      header{
+        background-image:url({{site.baseurl}}/assets/layout/diamonds.png);
+        background-repeat:repeat;
       }
       .weather{
         background-image:url({{site.baseurl}}/assets/layout/graphics.png);

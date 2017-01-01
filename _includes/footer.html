@@ -1,19 +1,15 @@
 <footer class="center-text">
     <div class="flex-panel">
       <div class="flex-item trio">
-        <p>{{ site.description | escape }}</p>
+        <p>{{ site.description }}</p>
       </div>
 
       <div class="flex-item trio">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+        <a href="mailto:support@warmhutgroup.com" class = 'email-us'>Email Us</a>
+        <ul>
+          <li><a href="/solutions/brand/">Brand Design</a></li>
+          <li><a href="/solutions/social/">Publicity</a></li>
+          <li><a href="/solutions/web/">Web Dvelopment</a></li>
         </ul>
       </div>
       <div class="flex-item trio">
@@ -22,7 +18,7 @@
       </div>
     </div>
     <p class = 'center-text'>
-      &copy; 2016 WarmHut - All rights reserved.
+      &copy; <span class = 'thisYear'></span> WarmHut - All rights reserved.
     </p>
     <script src='https://code.jquery.com/jquery-3.1.0.min.js' integrity='sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s='   crossorigin='anonymous'></script>
     <script src="https://use.fontawesome.com/df6b169964.js"></script>
