@@ -312,13 +312,13 @@ footer div {
   margin-right:1px;
   text-align:center;
   cursor:pointer;
-  background-color:#14CC33;
+  background-color:#14cc33;
   border:none;
   border-radius:25px 0 0 25px;
   transition:background 0.3s ease-out 0.1s;
 }
 .border{
-  color:#14CC33;
+  color:#fff;
   font-weight:500;
   font-size:120%;
   width:250px;
@@ -326,15 +326,14 @@ footer div {
   margin:25px auto;
   padding:10px 25px;
   border-radius:25px;
-  background-color:#000;
+  background-color:#14cc33;
   border:1px solid transparent;
   cursor:pointer;
   text-align:center;
   transition:background 0.3s ease-out;
 }
 .border:hover{
-  background-color:#14CC33;
-  color:white;
+  background-color:#14cc66;
   border:1px solid transparent;
 }
 .button:nth-child(2n){
