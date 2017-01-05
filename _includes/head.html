@@ -29,5 +29,50 @@
       .weather{
         background-image:url({{site.baseurl}}/assets/layout/graphics.png);
       }
+      @font-face {
+        font-family: 'fontello';
+        src: url('{{ site.baseurl }}/assets/font/fontello.eot?37354557');
+        src: url('{{ site.baseurl }}/assets/font/fontello.eot?37354557#iefix') format('embedded-opentype'),
+            url('{{ site.baseurl }}/assets/font/fontello.woff2?37354557') format('woff2'),
+            url('{{ site.baseurl }}/assets/font/fontello.woff?37354557') format('woff'),
+            url('{{ site.baseurl }}/assets/font/fontello.ttf?37354557') format('truetype'),
+            url('{{ site.baseurl }}/assets/font/fontello.svg?37354557#fontello') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+      [class^="icon-"]:before, [class*=" icon-"]:before {
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        speak: none;
+      
+        display: inline-block;
+        text-decoration: inherit;
+        width: 1em;
+        margin-right: .2em;
+        text-align: center;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1em;
+        margin-left: .2em;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-rss:before { content: '\e800'; } /* '' */
+      .icon-arrow:before { content: '\e801'; } /* '' */
+      .icon-back:before { content: '\e802'; } /* '' */
+      .icon-book:before { content: '\e803'; } /* '' */
+      .icon-chat:before { content: '\e804'; } /* '' */
+      .icon-music:before { content: '\e805'; } /* '' */
+      .icon-elite:before { content: '\e806'; } /* '' */
+      .icon-facebook:before { content: '\e807'; } /* '' */
+      .icon-cancel:before { content: '\e808'; } /* '' */
+      .icon-heart:before { content: '\e809'; } /* '' */
+      .icon-mail:before { content: '\e80a'; } /* '' */
+      .icon-search:before { content: '\e80b'; } /* '' */
+      .icon-bars:before { content: '\f008'; } /* '' */
+      .icon-twitter:before { content: '\f309'; } /* '' */
   </style>
 </head>
