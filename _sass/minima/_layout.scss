@@ -34,7 +34,7 @@ h1,h2, h3, h4{
   font-stretch:normal;
   font-weight:400;
   text-align:center;
-  padding:0 25px;
+  padding:0;
   line-height:1.2;
   color:#000;
 }
@@ -44,7 +44,7 @@ h1{
 }
 h2{
   font-weight:300;
-  font-size:210%
+  font-size:200%
 }
 h3{
   font-size:175%;
@@ -96,7 +96,8 @@ img{
 .btn{
   display: inline-block;
   width:250px;
-  padding:15px;
+  padding:18px;
+  font-size:1.2em;
   margin:5px;
   text-align:center;
 }
@@ -242,10 +243,15 @@ footer .flex-panel{
   padding: 0;
   text-align: center;
 }
-footer [class*='fa-']{
+footer [class*='icon-']{
   border-radius:50%;
   padding:10px 12.5px;
   color:#fff;
+}
+.icon-bars,
+.icon-chat,
+.icon-cancel{
+  font-size:2em;
 }
 footer div {
   padding:25px;
@@ -342,10 +348,10 @@ footer div {
   height:100%;
   min-height:90vh;
 }
-.sasa h1{
-  color:#fff;
-}
+.sasa p,
+.sasa h1,
 .sasa h2{
+  padding:5px 20px;
   color:#fff;
 }
 
@@ -393,9 +399,9 @@ footer div {
 }
 .widget form{
   width:100%;
-  width:260px;
+  width:250px;
   padding:0;
-  margin:15px auto;
+  margin:7.5px auto;
   position:relative;
 }
 input{
@@ -403,7 +409,7 @@ input{
   display:block;
   padding:12px;
   width:100%;
-  margin:5px auto;
+  margin:7.5px auto;
   background-color:#fff;
   font-size:110%;
   outline:none;
@@ -414,18 +420,6 @@ input{
 input:hover,
 input:focus{
   border:1px solid #14CC33;
-}
-form [class*='fa-']{
-  position:absolute;
-  font-size:240%;
-  top:52px;
-  cursor:pointer;
-  right:10px;
-  color:#222;
-  transition:color 0.3s ease-out;
-}
-form [class*='fa-']:hover{
-  color:#14cc33;
 }
 .submit{
   width:100%;
@@ -463,8 +457,8 @@ form [class*='fa-']:hover{
 }
 .widget{
   position:fixed;
-  width:290px;
-  bottom:70px;
+  width:280px;
+  bottom:60px;
   right:25px;
   background-color:#000;
   color:#fff;
@@ -482,42 +476,30 @@ form [class*='fa-']:hover{
   animation: bounce 0.5s infinite 0.3s ease-in-out;
 }
 .open{
-  height:390px;
+  height:350px;
   opacity:1;
 }
 .piece{
   padding:0;
   min-height:75px;
+  background-color:rgba(0,0,0,0.4);
 }
 .piece:first-child{
   padding:7.5px 0;
 }
 .piece:last-child{
-  background-color:#000;
   color:#fff;
   height:315px;
   position:relative;
   border-radius:0 0 5px 5px;
 }
-.piece:first-child [class*='fa-']{
-  width:128px;
+.piece:first-child [class*='icon-']{
+  width:124px;
   margin:10px 0;
   display:inline-block;
 }
 .piece:last-child{
   padding-top:30px;
-}
-.piece:last-child:after{
-  content:'';
-  width:0;
-  height:0;
-  border-left:15px solid transparent;
-  border-right:15px solid transparent;
-  border-top:18px solid #000;
-  position:absolute;
-  top:312px;
-  z-index:100;
-  left:250px;
 }
 .piece h3{
   color:#14CC33;
