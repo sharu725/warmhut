@@ -13,6 +13,23 @@
   {% include google-analytics.html %}
   {% endif %}
   <style>
+      body, h1, h2, h3, h4, h5, h6,
+      p, blockquote, pre, hr,
+      dl, dd, ol, ul, figure {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-feature-settings: "kern" 1;
+          -moz-font-feature-settings: "kern" 1;
+                font-feature-settings: "kern" 1;
+        font-kerning: normal;
+      }
+      img {
+        max-width: 100%;
+        vertical-align: middle;
+      }
      .insight{
         background-image: url({{site.baseurl}}/assets/layout/dev.jpeg);
       }
@@ -23,7 +40,7 @@
       .blog .intro,
       .widget,
       header{
-        background-image:url({{site.baseurl}}/assets/layout/illusion.png);
+        background-image:url({{site.baseurl}}/assets/layout/type.png);
         background-repeat:repeat;
       }
       .weather{
@@ -59,7 +76,6 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
-      
       .icon-rss:before { content: '\e800'; } /* '' */
       .icon-arrow:before { content: '\e801'; } /* '' */
       .icon-back:before { content: '\e802'; } /* '' */
