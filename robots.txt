@@ -2,3 +2,4 @@ User-agent: *
 Disallow:/portfolio.html
 Disallow:/solutions/web.html
 Disallow:/blog.html
+Disallow:/blog/*

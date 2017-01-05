@@ -146,7 +146,7 @@ img{
 }
 .overlay{
   padding:160px 0 50px 0;
-  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(0,0,0,0.6);
   color:#fff;
 }
 .modal-body{
@@ -425,13 +425,13 @@ form [class*='fa-']{
   transition:color 0.3s ease-out;
 }
 form [class*='fa-']:hover{
-  color:#14CC33;
+  color:#14cc33;
 }
 .submit{
   width:100%;
   max-width:360px;
-  background-color:transparent;
-  color:#14cc33;
+  background-color:#14cc33;
+  color:#fff;
   font-weight:400;
   cursor:pointer;
   text-align:center;
@@ -444,7 +444,7 @@ form [class*='fa-']:hover{
   transition:background 0.3s ease-in-out;
 }
 .submit:hover{
-  background:#fff;
+  background:#14cc66;
 }
 .bot{
   position:fixed;
