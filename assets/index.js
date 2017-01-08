@@ -1,7 +1,7 @@
 (function() {
    'use strict';
     var bot, input, url, message, email, name, banner, year;
-    (function() {
+    $(function() {
         year = new Date();
         $('.view-menu').on('click', function(){
           $(this).siblings('.nav-menu').toggleClass('menu-open');
