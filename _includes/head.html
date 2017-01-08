@@ -3,8 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <link rel = 'icon' type = 'image/ico' sizes = '32X32' href = '{{site.baseurl}}/assets/icons/favicon.ico'>
+  <meta name="description" content="{{ page.excerpt | default: page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
+  <meta name="theme-color" content="#ffffff">
   <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro:300,400" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.htm l','' | absolute_url }}">
@@ -48,7 +53,7 @@
       }
       @font-face {
         font-family: 'fontello';
-        src:url('{{ site.baseurl }}/assets/font/fontello.woff?37354557') format('woff');
+        src:url('{{ site.baseurl }}/assets/fontello.woff?37354557') format('woff');
         font-weight: normal;
         font-style: normal;
       }
