@@ -19,10 +19,10 @@ layout: default
   </div>
   <aside class = 'flex-item trio'>
     <h3>Related Posts</h3>
-    <div class="icon icon-arrow"></div>
     <ul class="post-list">
       {% for post in site.posts %}
         <li>
+          <i class="icon icon-arrow"></i>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </li>
       {% endfor %}
