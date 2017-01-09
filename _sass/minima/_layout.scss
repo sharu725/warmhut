@@ -580,6 +580,11 @@ h3.value{
   border-right: 5px solid transparent; 
   border-bottom: 5px solid red;
 }
+@media screen and (min-width: 567px) and (max-width:768px){
+  .trio{
+    width:45%;
+  }
+}
 @media screen and (min-width:768px){
   .circle-separator{
     vertical-align:text-bottom;
