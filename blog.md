@@ -5,4 +5,8 @@ description: 'Tune in for updates - we post on every Monday and Friday. Should y
 permalink: /blog/
 ---
 # Insights hub
-<p class = 'half'>Tune in for updates - we post on every Monday and Friday. Should you like what you see, subscribe, comment or follow us on social media.</p>
+<p class = 'half'>
+  We are lovers of tech and enterprise. Combined, these areas pack enough  possibilities to push societies to new
+  realities. Fortunately, we have modeled Warmhut as a sharing platform at its core, and we love to share our 
+  insights from time to time.
+</p>
