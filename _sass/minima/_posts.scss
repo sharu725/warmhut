@@ -29,8 +29,12 @@ padding:15px 25px;
 .blog .intro h1{
     color:#14cc33;
 }
-.blog .flex-panel{
-padding:0;
+.blog > .flex-panel:not(.land){
+   padding-top:0;
+   padding-bottom:0;
+}
+.about.blog > .land{
+    padding:50px 0 0 0;
 }
 .intro .overlay{
     min-height:50vh;
