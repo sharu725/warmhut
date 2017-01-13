@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.htm l','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
+  {% if site.google_analytics %}
+    {% include google-analytics.html %}
   {% endif %}
   <style>
       body, h1, h2, h3, h4, h5, h6,
@@ -42,8 +42,7 @@
          background-image:url({{site.baseurl}}/assets/layout/art.jpg);
       }
       .dev,
-      .blog .intro,
-      .widget,
+      .land,
       header{
         background-image:url({{site.baseurl}}/assets/layout/type.png);
         background-repeat:repeat;
@@ -53,7 +52,7 @@
       }
       @font-face {
         font-family: 'fontello';
-        src:url('{{ site.baseurl }}/assets/fontello.woff?37354557') format('woff');
+        src:url('{{ site.baseurl }}/assets/fontello.woff?71939264') format('woff');
         font-weight: normal;
         font-style: normal;
       }
@@ -76,19 +75,23 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
-      .icon-rss:before { content: '\e800'; } /* '' */
-      .icon-arrow:before { content: '\e801'; } /* '' */
-      .icon-back:before { content: '\e802'; } /* '' */
-      .icon-book:before { content: '\e803'; } /* '' */
-      .icon-chat:before { content: '\e804'; } /* '' */
-      .icon-music:before { content: '\e805'; } /* '' */
-      .icon-elite:before { content: '\e806'; } /* '' */
-      .icon-facebook:before { content: '\e807'; } /* '' */
-      .icon-cancel:before { content: '\e808'; } /* '' */
-      .icon-heart:before { content: '\e809'; } /* '' */
-      .icon-mail:before { content: '\e80a'; } /* '' */
-      .icon-search:before { content: '\e80b'; } /* '' */
-      .icon-bars:before { content: '\f008'; } /* '' */
-      .icon-twitter:before { content: '\f309'; } /* '' */
+    
+    .icon-rss:before { content: '\e800'; } /* '' */
+    .icon-arrow:before { content: '\e801'; } /* '' */
+    .icon-back:before { content: '\e802'; } /* '' */
+    .icon-book:before { content: '\e803'; } /* '' */
+    .icon-chat:before { content: '\e804'; } /* '' */
+    .icon-music:before { content: '\e805'; } /* '' */
+    .icon-elite:before { content: '\e806'; } /* '' */
+    .icon-facebook:before { content: '\e807'; } /* '' */
+    .icon-cancel:before { content: '\e808'; } /* '' */
+    .icon-heart:before { content: '\e809'; } /* '' */
+    .icon-mail:before { content: '\e80a'; } /* '' */
+    .icon-search:before { content: '\e80b'; } /* '' */
+    .icon-rewind:before { content: '\e80e'; } /* '' */
+    .icon-bars:before { content: '\f008'; } /* '' */
+    .icon-cool:before { content: '\f164'; } /* '' */
+    .icon-agree:before { content: '\f2b5'; } /* '' */
+    .icon-twitter:before { content: '\f309'; } /* '' */
   </style>
 </head>

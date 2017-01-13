@@ -1,5 +1,5 @@
 header{
-  background:#000;
+  background-color:#000;
   color:#fff;
   text-align:center;
   position:fixed;
@@ -62,15 +62,16 @@ header a{
 }
 .menu-open{
   display:block;
-  width:98%;
-  background:#fff;
-  color:#222;
+  width:96%;
+  background-color:rgba(0,0,0,0.5);
+  box-shadow:0 0 1px 1px rgba(255,255,255,0.2);
+  color:#fff;
   height:100vh;
   padding:0 20px;
   overflow:scroll;
 }
 .menu-open li{
-  border-bottom:0.5px solid #888;
+  border-bottom:2px solid #111;
   text-align:left;
   padding:35px 0 10px 35px;
   transition:background 0.3s ease-in-out;
@@ -138,4 +139,64 @@ header a{
    .nav-menu  li:hover > a{
      color:#FF8600;
    }
+}
+
+.sending{
+  padding-top:60px;
+}
+.sending h2{
+  margin-bottom:15px;
+}
+.sending span{
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	display:inline-block;
+	position:absolute;
+	left:50%;
+	margin-left:-10px;
+	animation:3s infinite linear;
+	-moz-animation:3s infinite linear;
+	-o-animation:3s infinite linear;
+	
+}
+.sending span:nth-child(2){
+	background:#fff;
+	animation:kiri 1.2s infinite linear;
+	-moz-animation:kiri 1.2s infinite linear;
+	-o-animation:kiri 1.2s infinite linear;
+	
+}
+.sending span:nth-child(3){
+	background:#14cc66;
+	z-index:100;
+}
+.sending span:nth-child(4){
+	background:#f00;
+	animation:kanan 1.2s infinite linear;
+	-moz-animation:kanan 1.2s infinite linear;
+	-o-animation:kanan 1.2s infinite linear;
+}
+
+
+@keyframes kanan {
+    0% {transform:translateX(20px);
+    }
+   
+	50%{transform:translateX(-20px);
+	}
+	
+	100%{transform:translateX(20px);
+	z-index:200;
+	}
+}
+
+@keyframes kiri {
+     0% {transform:translateX(-20px);
+	z-index:200;
+    }
+	50%{transform:translateX(20px);
+	}
+	100%{transform:translateX(-20px);
+	}
 }
