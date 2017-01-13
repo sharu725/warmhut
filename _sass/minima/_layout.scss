@@ -490,7 +490,7 @@ input.submit{
   cursor:pointer;
   z-index:503;
   max-width:280px;
-  margin:0 auto;
+  margin:15px auto;
   background-color:#14cc33;
   color:#fff;
   transition:background-color 0.3s ease-out;
@@ -499,7 +499,7 @@ input.submit{
 .previous{
   position:absolute;
   top:0;
-  left:0;
+  left:20px;
   padding:0;
 }
 .continue span{
