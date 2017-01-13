@@ -440,6 +440,7 @@ input.submit{
   font-size:120%;
   outline:none;
   border:none;
+  -webkit-appearance: none;
   transition:background 0.3s ease-in-out;
 }
 .submit:hover{
