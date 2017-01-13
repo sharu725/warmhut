@@ -1,40 +1,52 @@
 (function() {
    'use strict';
-    var bot, input, url, message, email, name, banner, year;
+    var bot, input, message, email, guest, mailForm, year, widget;
     $(function() {
         year = new Date();
+        $('.thisYear').append(year.getFullYear());
         $('.view-menu').on('click', function(){
           $(this).siblings('.nav-menu').toggleClass('menu-open');
-        });
-        $('.bot').on('click hover', function(){
-          bot = $(this).children('.icon');
-          $('.widget').toggleClass('open');
-          bot.toggleClass('icon-chat').toggleClass('icon-cancel');
-        });
-        $('.fa-close').on('click', function() {
-          $('.widget').removeClass('open');
-        })
-        $('.email-us').on('click', function() {
-            $('.contact').addClass('remove-modal').removeClass('add-modal');
         });
         $('.close-modal').on('click', function() {
             $('.contact').toggleClass('remove-modal').toggleClass('add-modal');
         });
+    });
+    
+    mailForm = $('#enquire');
+    widget = $('.widget .piece');
+    mailForm.submit(function(e) {
+      guest = document.getElementById('name').value.toUpperCase();
+      e.preventDefault();
+      $.ajax({
+        url: '//formspree.io/support@warmhutgroup.com',
+        method: 'POST',
+        data: $(this).serialize(),
+        dataType: 'json',
+        beforeSend: function() {
+          widget.html(`<div class = "sending">
+            <h2>Sending</h2>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>`);
+        },
+        success: function(data) {
+          widget.find('.sending').hide();
+          widget.html(`<div class = "confirm success">
+            <h2>Hey ${guest}!</h2>
+            <div class = 'big-icon'><i class = 'icon icon-agree'></i></div>
+            <p>Thank you reaching out to us. We will get back to you asap.</p>
+          </div>`);
+        },
+        error: function(err) {
+          widget.find('.sending').hide();
+          widget.html('<div class = "confirm error"><p>Yikes! There was problem submitting your details. Please refrsh and try again later.</p></div>');
+      }
+      });
+    });
 
-        $('form .icon-submit').on('click', function(){
-          //check if the data is ok
-          if(details){
-            message = 'Thank you for contacting Warmhut ' + name + '. We"ll get back to you shortly.'; 
-            banner = $('div.confirmation').append(message);
-            $('.overlay').append(banner);
-          }
-          //check email address
-          else{
-            message = 'Kindly enter a valid email address.';
-            banner = $('div.correction').append(message);
-            $('.overlay').append('banner');
-          }
-        });
-        $('.thisYear').append(year.getFullYear());
+    $('.continue').on('click', function() {
+      window.history.back();
+      console.log('I want to go back');
     });
 })();

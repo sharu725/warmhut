@@ -4,18 +4,19 @@ layout: default
 <article class = 'flex-panel transparent' itemscope itemtype="http://schema.org/BlogPosting">
   <div class = 'flex-item tripple post'>
     <div class="post-header">
-      <a href = '{{site.baseurl}}/blog'><i class = 'icon icon-back' aria-hidden = 'true'>View All Posts</i></a><h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <a href = '{{site.baseurl}}/blog'><i class = 'icon icon-back' aria-hidden = 'true'></i>View All Posts</a><h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
       <p class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     </div>
     <div class="post-content" itemprop="articleBody">
       {{ content }}
-      <div class = 'facebook'><i class = 'icon icon-facebook' aria-hidden = 'true'> Share</i></div>
-      <div class = 'twitter'><i class = 'icon icon-twitter' aria-hidden = 'true'></i> Tweet</div>
+      <div class = 'facebook share'><i class = 'icon icon-facebook' aria-hidden = 'true'> Share</i></div>
+      <div class = 'twitter share'><i class = 'icon icon-twitter' aria-hidden = 'true'></i> Tweet</div>
     </div>
 
     {% if site.disqus.shortname %}
       {% include disqus_comments.html %}
     {% endif %}
+      
   </div>
   <aside class = 'flex-item trio'>
     <h3>Related Posts</h3>

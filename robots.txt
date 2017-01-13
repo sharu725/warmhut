@@ -1,5 +1,6 @@
 User-agent: *
-Disallow:/portfolio.html
-Disallow:/solutions/web.html
-Disallow:/blog.html
+Disallow:/portfolio
+Disallow:/solutions/web
+Disallow:/blog
 Disallow:/blog/*
+Disallow:/contact

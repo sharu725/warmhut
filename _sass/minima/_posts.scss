@@ -18,21 +18,29 @@ padding:15px 25px;
 .blog,.post{
     min-height:96vh;
 }
-.blog .intro{
-    background-color:#000;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    min-height:40vh;
+.blog > .flex-panel{
+   padding-top:0;
+   padding-bottom:0;
+}
+.blog > .land{
     color:white;
     width:100%;
+    background-color:transparent;
+    background-attachment:fixed;
+    min-height:35vh;
+    background-color:#000;
+    border:0;
 }
-.blog .intro h1{
+.land .intro{
+    color:#fff;
+    width:100%;
+    padding:90px 20px 30px 20px;
+}
+.land .intro h1{
     color:#14cc33;
 }
-.blog .flex-panel{
-padding:0;
-}
-.intro .overlay{
+.land .overlay{
+    background-color:transparent;
     min-height:50vh;
     padding:35px 50px;
 }
@@ -49,4 +57,7 @@ padding:0;
 .blog .tripple,
 .blog .trio{
     padding:0;
+}
+.share{
+    width:45%;
 }
