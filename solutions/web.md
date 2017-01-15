@@ -20,8 +20,8 @@ permalink: /solutions/web
     <div class = 'flex-item duo'>
       <h2>Assisted Hosting</h2>
       <p>
-        Depending on your specific preferences, we will adapt a an optimal hosting solution for you business.
-        We are particularly determined to get you 24-hrs of uptime for your site at the lowest possible cost.
+        Depending on your specific preferences, we will adapt an optimal hosting solution for you business.
+        We are particularly determined to ensure 24-hrs of uptime for your site at the lowest possible cost.
       </p>
     </div>
     <div class = 'flex-item duo'><div class = 'service-icon'><i class = 'icon icon-cloud'></i></div></div>
@@ -47,6 +47,13 @@ permalink: /solutions/web
         Fast websites are great for users as they provide a smooth browsing experience. In turn, this
         leads to better conversion rates for your business.
       </p>
+    </div>
+  </div>
+  <div class = 'center-text half'>
+    <h2>Other Services</h2>
+    <div class = 'expand-me green'>
+      <a href = '/solutions/brand'><i class = 'icon icon-share'></i> Brand and graphics design</a>
+      <a href = '/solutions/social'><i class = 'icon icon-share'></i> Promote your business on social media</a>
     </div>
   </div>
 </section>
