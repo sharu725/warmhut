@@ -5,7 +5,7 @@ permalink: '/contact-us/'
 ---
 <section class = 'sasa insight whole'>
   <div class = 'widget'>
-    <div class = 'continue previous'><span>Back to WarmHut</span><span><i class = 'icon icon-rewind'></i></span></div>
+    <div class = 'continue previous'><span>Back to WarmHut</span><span><i class = 'icon icon-back'></i></span></div>
     <div class = 'piece'>
       <h1>Curious about our pricing?</h1>
       <h2>Request a Quotation</h2>
