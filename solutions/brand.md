@@ -7,7 +7,7 @@ permalink: /solutions/brand
 <section class = 'division about transparent'>
     <div class = 'half'>
         <h1>Brand Design</h1>
-        <p>You probably feel the need to shake and freshen your brand to give it a more fulfilling and exciting breath after years of service delivery to your customers. While our experience has proven it to be a daunting and sometimes confusing step, nothing could have prepared us better than those very moments.Our in-house logo designers will help conceptualize and breathe your new brand to life at a fraction of your budget.</p>
+        <p>Shake and freshen your brand to give it a more fulfilling and exciting breath after years of service delivery to your customers. While our experience has proven it to be a daunting and sometimes confusing step, nothing could have prepared us better than those very moments.Our in-house logo designers will help conceptualize and breathe your new brand to life at a fraction of your budget.</p>
     </div>
     <div class = 'center-text half'>
     <h2>Other Services</h2>

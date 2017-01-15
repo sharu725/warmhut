@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Warmhut
-description: 'We are a young technology company focusing on enabling small businesses by providing them with the right technological tools to gain the relevant publicity. We work as a team of technology professionals from talented Web developers, Social Media experts, to Public Relations specialists.'
+description: 'We are a tech startup that help businesses broaden their markets by cultivating a strong online presence.'
 permalink: /about/
 ---
 <section class = 'division'>

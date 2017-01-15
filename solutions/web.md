@@ -18,7 +18,7 @@ permalink: /solutions/web
   <h1>What do you get?</h1>
   <div class = 'flex-panel tree'>
     <div class = 'flex-item duo'>
-      <h2>Assisted Hosting</h2>
+      <h2>Optimal Web Hosting</h2>
       <p>
         Depending on your specific preferences, we will adapt an optimal hosting solution for you business.
         We are particularly determined to ensure 24-hrs of uptime for your site at the lowest possible cost.
@@ -42,7 +42,7 @@ permalink: /solutions/web
     <div class = 'flex-item duo'><div class = 'service-icon'><i class = 'icon icon-search'></i></div></div>
     <div class = 'flex-item duo'><div class = 'service-icon'><i class = 'icon icon-rocket'></i></div></div>
     <div class = 'flex-item duo'>
-      <h2>Speed</h2>
+      <h2>Faster Loading Time</h2>
       <p>
         Fast websites are great for users as they provide a smooth browsing experience. In turn, this
         leads to better conversion rates for your business.
