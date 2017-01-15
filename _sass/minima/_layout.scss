@@ -196,7 +196,7 @@ img{
   opacity:0;
 }
 .transparent{
-  padding:80px 0;
+  padding:80px 0 40px 0 ;
 }
 .center-text{
   text-align: center;
@@ -252,7 +252,8 @@ footer h4{
   margin-bottom:12.5px;
 }
 .svg-icon{
-  width:100px;
+  width:60px;
+  height:auto;
 }
 .about h1{
   margin-top:60px;
@@ -271,7 +272,7 @@ footer h4{
 }
 .half{
   max-width:750px;
-  padding-bottom:50px;
+  padding-bottom:30px;
   display:block;
   margin:10px auto;
   font-size:1.15em;
@@ -442,18 +443,17 @@ input.submit{
   font-size:1.25em;
   right:25px;
   padding:6px 5px;
-  background-color:#14cc33;
-  box-shadow:0 0 1px 1px rgba(255,255,255,0.1);
+  background:radial-gradient(#14cc33,#14cc66);
   outline:none;
   color:#fff;
   cursor:pointer;
   z-index:501;
   text-align:center;
   margin:8px;
-  transition: background-color 0.3s ease-in-out; 
+  transition: background 0.3s ease-in-out; 
 }
 .bot:hover{
-  background-color:#14cc66;
+  background:#14cc66;
 }
 .widget{
   position:fixed;
@@ -536,11 +536,6 @@ input.submit{
 .error{
   color:#f00;
 }
-p.hut-unique{
-  font-size:105% !important;
-  line-height:1.7;
-  font-style:italic;
-}
 .wrapper{
   position:relative;
 }
@@ -607,7 +602,7 @@ h3.value{
 }
 .service-icon{
   padding:0 50px 25px 50px;
-  font-size:7em;
+  font-size:6em;
   margin:0 auto;
   color:#14cc33;
 }

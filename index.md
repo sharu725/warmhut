@@ -1,5 +1,4 @@
 ---
 layout: page
-description: 'We are web and marketing experts. When you make the decision to develop with us, 
-              we promise to make your brand stand out from the crowd.'
+description: 'We are web and marketing experts. We believe in your creativity and resolve to make a difference. We have developed a set of solutions that will help you transform your ideas to profitability.'
 ---
