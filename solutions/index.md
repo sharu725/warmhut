@@ -22,7 +22,7 @@ permalink: /solutions/
           <h3 class = 'value'>Web Development</h3>
           <p>Every business today needs to assert its presence on the web. We have the expertise to create and maintain fast, responsive and sleek sites. Warmhut will be with you every step of the process.
           </p>
-          <div class = 'border'>Read More</div>
+          <div class = 'border'>Learn More</div>
         </a>
       </div>
       <div class = 'flex-item trio' id = 'graphics'>
@@ -32,7 +32,7 @@ permalink: /solutions/
           </p>
           <h3 class = 'value'>Brand Design</h3>
           <p>We’re known for design. That’s how you know you’ll receive inspired, effective, intelligent logo for your brand. Our designs are visually stunning, and move your customers to action.</p>
-          <div class = 'border'>Read More</div>
+          <div class = 'border'>Learn More</div>
         </a>
       </div>
       <div class = 'flex-item trio' id = 'social'>
@@ -42,7 +42,7 @@ permalink: /solutions/
         </p>
         <h3 class = 'value'>Social Media</h3>
         <p> We are bold as we are unique. This is how we stand out from. We approach social media the same way, ensuring your product reach the intended audience at a fraction of your budget.</p>
-          <div class = 'border'>Read More</div>
+          <div class = 'border'>Learn More</div>
         </a>
       </div>
     </div>
