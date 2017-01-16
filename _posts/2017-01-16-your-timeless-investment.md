@@ -11,7 +11,7 @@ between hope and desperation. Could January really the problem? Is it that it is
 
 I beg to digress. Yes, there are mountains of expenses to cover now, after December milked our pockets.
 True, some if not many of us are unemployed. True we have little to no capital to jumpstart a busines
-(Yet the little is often than enough).
+(Yet the little is often always enough).
 <figure><img class = '' src = '{{site.baseurl}}/assets/posts/investment.jpg' alt = 'investment'></figure>
 
 Enough! We're just having a Monday-after-weekend effect - we're just a little ill-prepared. 
@@ -23,7 +23,7 @@ But we're on the third week of January. Too late? No, there is time. Time to for
 acquire new ideas, activate ideas we have been sitting on for so long. 
 
 
-Especially if you're young , you should read widely, and I'm not talking about school but of self-education.
+Especially if you're young , you should read widely, and I'm not talking of school but about self-education.
 Start with what you are already interested in and you will surprise yourself with how much information you could use.
 
 
