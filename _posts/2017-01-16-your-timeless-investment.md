@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /your-timeless-investment/
-author: 'Dan Weru'
+author: 'dan weru'
 excerpt: 'It is mid -january and many pockets are weeping. There is no doubt that, to many, the sound of January sums up everything between hope and desperation. Could January really the problem?'
 postimg: 'investment'
 ---
