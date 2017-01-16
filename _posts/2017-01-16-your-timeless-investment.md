@@ -11,7 +11,7 @@ between hope and desperation. Could January really the problem? Is it that it is
 
 I beg to digress. Yes, there are mountains of expenses to cover now, after December milked our pockets.
 True, some if not many of us are unemployed. True we have little to no capital to jumpstart a busines
-(Yet the little is often than enough).
+(Yet the little is often always enough).
 <figure><img class = '' src = '{{site.baseurl}}/assets/posts/investment.jpg' alt = 'investment'></figure>
 
 Enough! We're just having a Monday-after-weekend effect - we're just a little ill-prepared. 
