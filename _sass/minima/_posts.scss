@@ -8,12 +8,67 @@ aside{
 .post{
 margin:0 auto;
 padding:15px 25px;
+line-height:27px;
 }
-.post h1,
-.post h2{
+.article{
+    color:#222;
+}
+.article p{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:1.1em;
+}
+.article h1{
+    font-size:200%;
+}
+.article h1,
+.article h2,{
     margin:0 auto;
-    padding:15px 0;
+    padding:0;
     text-align:left;
+    font-weight:400;
+    color:#000;
+}
+.article .avatar{
+    display:inline-block;
+    width:40px;
+    margin-right:10px;
+    height:auto;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+.article figure{
+    position:relative;
+    width:100%;
+    height:auto;
+    cursor:pointer;
+    margin-left:0;
+}
+p + figure{
+    margin:15px 0;
+}
+.article figure:after{
+    content:'';
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.5);
+    z-index:3;
+    transition:background-color 0.3s ease-in;
+}
+.article:hover figure:after{
+    background-color:rgba(0,0,0,0.7);
+}
+.featured{
+    padding:0 !important;
+}
+.featured figure{
+    width:96%;
+}
+.featured p{
+    padding-top:0;
 }
 .blog,.post{
     min-height:96vh;
@@ -44,9 +99,9 @@ padding:15px 25px;
     min-height:50vh;
     padding:35px 50px;
 }
-.post-list h3{
+.blog .post-list h3{
     text-align:left;
-    color:#000;
+    color:#555;
     padding-left:0;
 }
 .post-list li{
@@ -54,7 +109,127 @@ padding:15px 25px;
     padding:15px;
     margin:20px;
 }
+.post-list h1{
+    text-align:left;
+    padding-left:0;
+}
+.post-link{
+    transition:color 0.3s ease-in-out;
+}
+.post-link:hover{
+    color:#14cc33;
+}
 .blog .tripple,
 .blog .trio{
     padding:0;
+}
+time{
+    color:#444;
+    text-transform:uppercase;
+    font-size:0.75em;
+}
+// select field
+.custom-select-wrapper,
+.custom-select {
+  position: relative;
+  display: block;
+  width:100%;
+  max-width:400px;
+  margin:0 auto;
+  user-select: none;
+}
+.custom-select-wrapper select {
+  display: none;
+}
+.custom-select-trigger {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    padding: 0 84px 0 22px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 60px;
+    background: #14cc33;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.custom-select-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px; height: 10px;
+    top: 50%; right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0;
+}
+.custom-select.opened .custom-select-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%);
+}
+  .custom-options {
+    position: absolute;
+    display: block;
+    top: 100%; left: 0; right: 0;
+    min-width: 100%;
+    margin: 15px 0;
+    border: 1px solid #222;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 1px rgba(0,0,0,.07);
+    background: #fff;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-15px);
+  }
+  .custom-select.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+  }
+.custom-options:before {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 100%; right: 25px;
+    width: 7px; height: 7px;
+    margin-bottom: -4px;
+    border-top: 1px solid #b5b5b5;
+    border-left: 1px solid #b5b5b5;
+    background: #fff;
+    transform: rotate(45deg);
+    transition: all .4s ease-in-out;
+}
+.option-hover:before {
+    background: #f9f9f9;
+}
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px;
+    border-bottom: 1px solid #b5b5b5;
+    font-size: 18px;
+    color: #222;
+    line-height: 47px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.custom-option:first-of-type {
+    border-radius: 4px 4px 0 0;
+}
+.custom-option:last-of-type {
+    border-bottom: 0;
+    border-radius: 0 0 4px 4px;
+}
+.custom-option:hover,
+.custom-option.selection {
+    background: #f9f9f9;
 }

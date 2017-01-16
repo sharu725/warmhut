@@ -3,10 +3,19 @@ layout: default
 comments: true
 ---
 <article class = 'flex-panel transparent' itemscope itemtype="http://schema.org/BlogPosting">
-  <div class = 'flex-item tripple post'>
+  <div class = 'flex-item tripple post article'>
     <div class="post-header">
-      <a href = '{{site.baseurl}}/blog'><i class = 'icon icon-back' aria-hidden = 'true'></i>View All Posts</a><h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-      <p class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+      <a href = '{{site.baseurl}}/blog'>
+        <div><i class = 'icon icon-back' aria-hidden = 'true'></i>All Posts</a></div>
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%b %-d, %Y" }}
+        </time>
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        {% if page.author %}
+          <img class = 'avatar' src = '{{site.baseurl}}/assets/{{page.author}}.jpg' alt = ' {{page.author}} avatar'>by 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name" class = 'green'>{{ page.author }}</span></span>
+        {% endif %}
     </div>
     <div class="post-content" itemprop="articleBody">
       {{ content }}
@@ -17,9 +26,9 @@ comments: true
     {% endif %}
       
   </div>
-  <aside class = 'flex-item trio'>
-    <h3>Related Posts</h3>
+  <aside class = 'flex-item trio article'>
     <ul class="post-list">
+      <li><h2>Related Posts</h2></li>
       {% for post in site.posts %}
         <li>
           <i class="icon icon-arrow"></i>
