@@ -31,7 +31,11 @@ line-height:27px;
 }
 .article .avatar{
     display:inline-block;
-    width:40px;
+    width:50px;
+    border-color:#14cc33 #000#14cc66;
+    border-style:solid;
+    border-width:2px;
+    padding:2px;
     margin-right:10px;
     height:auto;
     border-radius:50%;
@@ -130,6 +134,27 @@ time{
 }
 .author{
     text-transform:capitalize;
+}
+.tags{
+    background-color:#14cc33;
+    padding:5px;
+    display:inline-block;
+    width:40%;
+    margin-right:5px;
+    margin-top:10px;
+    border-radius:5px;
+    cursor:pointer;
+    color:#fff;
+    text-align:center;
+    transition: background-color 0.3s ease-in-out;
+}
+.tags:hover{
+    background-color:#14cc66;
+    opacity:0.9;
+}
+.link-follow{
+    text-decoration:underline;
+    color:#14cc33;
 }
 // select field
 .custom-select-wrapper,
