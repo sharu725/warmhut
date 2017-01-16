@@ -23,7 +23,7 @@ But we're on the third week of January. Too late? No, there is time. Time to for
 acquire new ideas, activate ideas we have been sitting on for so long. 
 
 
-Especially if you're young , you should read widely, and I'm not talking about school but of self-education.
+Especially if you're young , you should read widely, and I'm not talking of school but about self-education.
 Start with what you are already interested in and you will surprise yourself with how much information you could use.
 
 
