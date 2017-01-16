@@ -20,7 +20,7 @@ permalink: /about/
         <h1><span class = 'colorful'>Meet the team</span><i class = 'icon icon-elite green'></i></h1>
         <div class = 'flex-panel'>
         <div class = 'flex-item duo'>
-            <img src = '{{site.baseurl}}/assets/dubois.jpg'>
+            <img src = '{{site.baseurl}}/assets/maina joseph.jpg'>
             <a class = 'team-f' href = 'https://ke.linkedin.com/in/dubois-maina-0ab04689' target = '_blank'>Joseph Maina</a>
             <div class = 'wisdom'>
             <p>
@@ -29,8 +29,8 @@ permalink: /about/
             </div>
         </div>
         <div class = 'flex-item duo'>
-            <img src = '{{site.baseurl}}/assets/dan.jpg'>
-            <a class = 'team-f' a href = 'https://ke.linkedin.com/in/one-weru-93b46311b' target = '_blank'>Daniel Waweru</a>
+            <img src = '{{site.baseurl}}/assets/dan weru.jpg'>
+            <a class = 'team-f' a href = 'https://ke.linkedin.com/in/dan-weru-93b46311b' target = '_blank'>Daniel Waweru</a>
             <div class = 'wisdom'>
             <p>
                 I'm the lead web developer at Warmhut. To me, development is a user-centered creative process. With that in mind I
@@ -46,25 +46,25 @@ permalink: /about/
     <h1><span class = 'colorful'>We are</span></h1>
     <div class = 'flex-panel'>
         <div class = 'flex-item trio dark'>
-        <h2>Creative</h2>
+        <div class = 'our-value'>Creative</div>
         <p>
-            We are keen on being at per with prevailing trends. More importantly, we are
+            We are always at per with prevailing trends. More importantly, we are
             equally mindful of originality. Everyday, we set out to do something creative - something
             new - something bold.
         </p>
         </div>
         <div class = 'flex-item trio dark'>
-        <h2>Innovative</h2>
+        <div class = 'our-value second'>Innovative</div>
         <p class = 'center-text'>
             Our primary focus is provide tangible value. We are ever looking for ways to give our customers
             a better edge. Deep down, we really believe that every product can be made better.
         </p>
         </div>
         <div class = 'flex-item trio dark'>
-            <h2>Thorough</h2>
+            <div class = 'our-value'>Thorough</div>
             <p>
                 Proper execution will turn even the humbliest of ideas into an absolute marvel. At Warmhut,
-                we arm ourselves with this mindset. Indeed, we believe that anything worth doing is worth doing well.
+                we arm ourselves with this mindset. We believe that anything worth doing is worth doing well.
             </p>
         </div>
     </div>

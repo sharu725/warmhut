@@ -19,8 +19,8 @@ ul{
 }
 body{
   position:relative;
-  font-family:'open sans', Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-family:'Nunito Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
   line-height:1.5;
   margin:0 auto;
   color:#2d2d2d;
@@ -33,7 +33,7 @@ h1,h2, h3, h4{
   font-weight:400;
   text-align:center;
   padding:0;
-  line-height:1.4;
+  line-height:1.1;
   color:#000;
   margin:0 auto;
 }
@@ -64,6 +64,10 @@ p{
   height:auto;
   margin:25px auto;
   border-radius:50%;
+  border-color:#14cc33 #000 #14cc66;
+  border-style:solid;
+  border-width:5px;
+  padding:5px;
 }
 .team-f{
   display:block;
@@ -72,6 +76,22 @@ p{
   text-align:center;
   color:#14CC33;
   cursor:pointer;
+}
+.our-value{
+  width:150px;
+  height:150px;
+  padding:60px 0;
+  text-align:center;
+  background-color:#000;
+  border-radius:60px 0;
+  margin:5px auto;
+  color:#fff;
+  border-color:#14cc33 #14cc66;
+  border-width:3px;
+  border-style:solid;
+}
+.our-value.second{
+  border-radius:0 60px;
 }
 .team-f:hover{
   color:#14cc66;
@@ -94,11 +114,11 @@ img{
 .btn{
   display: inline-block;
   width:250px;
-  padding:15px;
+  padding:12.5px;
   font-size:1.2em;
   margin:5px;
   text-align:center;
-  transition:background-color 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in;
 }
 .btn.bright{
   background-color:#fff;
@@ -107,6 +127,19 @@ img{
 .btn.green{
   background-color:#14cc33;
   color:#fff;
+}
+.btn.hollow{
+  color:#222;
+  width:200px;
+  margin:5px 0;
+  padding:7.5px;
+  border-radius:40px;
+  background-color:transparent;
+  border:1.5px solid #14cc66;
+}
+.btn.hollow:hover{
+  color:#14cc33;
+  border:1.5px solid #14cc33;
 }
 .btn.btn.bright:hover{
   background-color:#eee;
@@ -402,7 +435,7 @@ input{
   display:block;
   padding:12.5px;
   width:100%;
-  max-width:360px;
+  max-width:400px;
   background-color:#fff;
   font-size:110%;
   outline:none;
@@ -416,7 +449,7 @@ input:focus{
 }
 input.submit{
   width:100%;
-  max-width:360px;
+  max-width:400px;
   background-color:#14cc33;
   color:#fff;
   font-weight:400;
@@ -456,7 +489,6 @@ input.submit{
   background:#14cc66;
 }
 .widget{
-  position:fixed;
   width:100%;
   background:linear-gradient(rgba(255,255,255,0.5) 45%, rgba(0,0,0,0.9) 99%);
   color:#fff;
@@ -466,7 +498,6 @@ input.submit{
   z-index:500;
   transition:height 0.4s ease-out;
   overflow:visible;
-  top:0;
   min-height:100vh;
 }
 .whole{

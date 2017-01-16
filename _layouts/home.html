@@ -5,22 +5,40 @@ layout: default
   <div class = 'land'>
     <div class = 'intro center-text'><div class = ''>{{ content }}</div></div>
   </div>
-  <div class = 'flex-panel'>
+  <div class = 'flex-panel article'>
       <div class = 'flex-item tripple'>
           <ul class="post-list">
             {% for post in site.posts %}
             <li>
-              <p class="post-meta">{{ post.date | date: "%-d %b" }}</p>
-              <h3>
+              <time class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
+              <h2>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-              </h3>
-              {{ post.excerpt }}
+              </h2>
+                {% if post.author %}
+                    <img class = 'avatar' src = '{{site.baseurl}}/assets/{{post.author}}.jpg' alt = ' {{post.author}} avatar'>by 
+                    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <span itemprop="name" class = 'green'>{{ post.author }}</span></span>
+                <div class = 'flex-panel featured'>
+                <div class = 'flex-item duo'>
+                    <figure><img src = '{{site.baseurl}}/assets/posts/{{post.postimg}}.jpg'></figure>
+                  {% endif %}
+                </div>
+                <div class = 'flex-item duo'>
+                  <p >{{ post.excerpt }}</p>
+                  <a class="btn hollow" href="{{ post.url | relative_url }}">Continue ...</a>
+                </div>
+              </div>
             </li>
             {% endfor %}
           </ul>
       </div>
       <aside class = 'flex-item trio'>
         <ul class="post-list">
+          <li>
+            <h2>Categories</h2>
+            <div>Business</div>
+            <div>Tech</div>
+          </li>
           {% for post in site.posts %}
             <li>
               <i class="icon icon-arrow"></i>
