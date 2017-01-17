@@ -1,5 +1,3 @@
 User-agent: *
 Disallow:/portfolio
-Disallow:/blog
-Disallow:/blog/*
 Disallow:/contact
