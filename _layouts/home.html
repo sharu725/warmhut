@@ -10,12 +10,12 @@ layout: default
           <ul class="post-list">
             {% for post in site.posts %}
             <li>
-              <time class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
               <h2>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
               </h2>
+              <time class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
                 {% if post.author %}
-                    <img class = 'avatar' src = '{{site.baseurl}}/assets/{{post.author}}.jpg' alt = ' {{post.author}} avatar'>by 
+                    by 
                     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                     <span itemprop="name" class = 'author green'>{{ post.author }}</span></span>
                 <div class = 'flex-panel featured'>
