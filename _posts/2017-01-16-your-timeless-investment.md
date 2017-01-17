@@ -46,8 +46,8 @@ Yeah, it is better to read a few paragraphs that you actually enjoy than pages o
 
 Remember we read to feed our mind with ideas. If you are bored, if it is not fun, don't do it.
 A better approach would be to look for books, articles magazines that would quench our thirst for
-a topic we've always been curious about.  
+topics we've always been curious about.  
 
 ## Decide for yourself
 Talking of late <a class = 'link-follow' target = '_blank' href = 'http://www.forbes.com/sites/viviannunez/2016/12/27/17-pieces-of-advice-that-will-turn-your-career-around-in-2017/#37df77537ba4'>resolutions?</a> I will leave that to you to decide. Personally, I don’t care about the name you assign to them.
-The investment you place in your mind and action is timeless in every sense of the word.
+The investment you place in your mind, and actions that follow, are timeless in every sense of the word.
