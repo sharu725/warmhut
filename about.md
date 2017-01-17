@@ -43,7 +43,7 @@ permalink: /about/
     </div>
 </section>
 <section class = 'transparent services'>
-    <h1><span class = 'colorful'>We are</span></h1>
+    <h1><span class = 'colorful'>Our Team is</span></h1>
     <div class = 'flex-panel'>
         <div class = 'flex-item trio dark'>
         <div class = 'our-value'>Creative</div>

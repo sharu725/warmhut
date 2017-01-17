@@ -277,6 +277,10 @@ footer [class*='icon-']{
   padding:7px 10px;
   color:#fff;
 }
+#footer-social{
+  max-width:150px;
+  margin:0 auto;
+}
 footer div {
   padding:25px;
 }
@@ -640,9 +644,7 @@ h3.value{
 }
 .expand-me{
   overflow:hidden;
-}
-.expand-me a{
-  display:block;
+  background-color:transparent !important;
 }
 @media screen and (min-width: 567px){
   .trio,
