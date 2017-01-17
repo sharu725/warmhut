@@ -78,20 +78,21 @@ p{
   cursor:pointer;
 }
 .our-value{
-  width:150px;
-  height:150px;
+  width:135px;
+  height:135px;
   padding:60px 0;
   text-align:center;
   background-color:#222;
-  border-radius:60px 0;
-  margin:5px auto;
+  border-radius:75px 80px 75px 0;
+  transform:rotate(-45deg);
+  margin:5px auto 30px auto;
   color:#fff;
   border-color:#14cc33 #14cc66;
   border-width:2px;
   border-style:solid;
 }
-.our-value.second{
-  border-radius:0 60px;
+.our-value p{
+  transform:rotate(45deg);
 }
 .team-f:hover{
   color:#14cc66;
@@ -514,26 +515,21 @@ input.submit{
   z-index:503;
   max-width:280px;
   margin:15px auto;
-  background-color:#14cc33;
   color:#fff;
-  transition:background-color 0.3s ease-out;
+  transition:opacity 0.3s ease-out;
   font-size:1.2em;
 }
 .previous{
+  background-color:transparent;
+  padding:10px;
   position:absolute;
   top:0;
-  left:20px;
-  padding:0;
-}
-.continue span{
-  padding:12.5px 20px;
-}
-.continue span:first-child{
-  background-color:rgba(0,0,0,0.5);
-  font-size:15px;
+  right:20px;
+  border-radius:50%;
+  border:1px solid #888;
 }
 .continue:hover{
-  background-color:#14cc66;
+  opacity:0.7;
 }
 .big-icon{
   display:block;

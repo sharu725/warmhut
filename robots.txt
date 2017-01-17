@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:/portfolio
-Disallow:/contact
+Disallow:/contact-us
 Disallow:/solutions/brand

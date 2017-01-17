@@ -38,7 +38,7 @@ learning from others. If not, you are probably learning from your own mistakes. 
 <figure><img class = '' src = '{{site.baseurl}}/assets/posts/reading.jpg' alt = 'reading culture'></figure>
 Invest in your mind to be a great entrepreneur, a great salesman or whatever it is that you call yourself as a professional.
 Remember, we all sell our time at different rates. We are all salespeople. It is just that some of us are more aware of
-it and are determined to take optimize their minutes for everything they are worth.
+it and are determined to optimize their minutes for everything they are worth.
 
 ## If it's boring find something else
 Reading is no fun if you approach it like a robot. It is important that you begin with things that interest you.
