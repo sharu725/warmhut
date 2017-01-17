@@ -29,7 +29,7 @@ permalink: /solutions/social
             </div>
             <div class = 'flex-item trio'>
                 <h2 class = 'left-text'>Campaigns.</h2>
-                <p> Want to mobilize people for your cause or event for your organization? We enjoy a challenge every now and then. With Warmhut, you're covered. 
+                <p> Mobilize people for your cause or event for your organization. We enjoy a challenge every now and then. With Warmhut, you're covered. 
                 Ready for your aha moment?</p>
             </div>
         </div>
