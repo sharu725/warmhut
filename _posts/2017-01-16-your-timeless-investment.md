@@ -31,22 +31,22 @@ It is more accurate to say that 'knowledge is potential power'. So act on what y
 works and what doesn't then channel your efforts on that which works.
 
 ## Execution is primary, experience is overrated
-<a class = 'link-follow' target = '_blank' href = 'https://www.eremedia.com/ere/experience-is-overrated-arguments-for-hiring-talented-individuals-without-perfect-credentials/'>Experience is overrated</a> - read so that you may learn from the successes and failures and others. Eventually, 
+<a class = 'link-follow' target = '_blank' href = 'https://www.eremedia.com/ere/experience-is-overrated-arguments-for-hiring-talented-individuals-without-perfect-credentials/'>Experience is overrated</a> - read so that you may learn from the successes and failures of others. Eventually, 
 execution is everything. Is execution your friend or your enemy? If execution is your friend, you probably are 
 learning from others. If not, you are probably learning from your own mistakes. Wouldn't it be better if you learned from others?
 
 <figure><img class = '' src = '{{site.baseurl}}/assets/posts/reading.jpg' alt = 'reading culture'></figure>
 Invest in your mind to be a great entrepreneur, a great salesman or whatever it is that you call yourself as a professional.
-Remember, we all sell our time to at different rates. We are all salespeople. It is just that some of us are more aware of
+Remember, we all sell our time at different rates. We are all salespeople. It is just that some of us are more aware of
 it and are determined to take optimize their minutes for everything they are worth.
 
 ## If it's boring find something else
 Reading is no fun if you approach it like a robot. It is important that you begin with things that interest you.
 Yeah, it is better to read a few paragraphs that you actually enjoy than pages of boring stuff. 
 
-Remember you are reading to feed your mind with ideas. If you are bored, if it is not fun, don't do it.
-A better approach would be to start looking for books, articles magazines that would quench your thirst for
-a topic you've always been curious about.  
+Remember we read to feed our mind with ideas. If you are bored, if it is not fun, don't do it.
+A better approach would be to look for books, articles magazines that would quench our thirst for
+a topic we've always been curious about.  
 
 ## Decide for yourself
 Talking of late <a class = 'link-follow' target = '_blank' href = 'http://www.forbes.com/sites/viviannunez/2016/12/27/17-pieces-of-advice-that-will-turn-your-career-around-in-2017/#37df77537ba4'>resolutions?</a> I will leave that to you to decide. Personally, I don’t care about the name you assign to them.
