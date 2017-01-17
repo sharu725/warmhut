@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Brand Design
-description: 'shake and freshen your brand to give it a more fulfilling and exciting breath after years of service delivery to your customers.'
 permalink: /solutions/brand
 ---
 <section class = 'division'>

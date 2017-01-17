@@ -5,7 +5,7 @@ permalink: '/contact-us/'
 ---
 <section class = 'sasa insight whole'>
   <div class = 'widget'>
-    <div class = 'continue previous'><span>Back to WarmHut</span><span><i class = 'icon icon-back'></i></span></div>
+    <div class = 'continue previous'><i class = 'icon icon-cancel'></i></div>
     <div class = 'piece'>
       <h1>Warmhut Help Center</h1>
       <form action = 'https://formspree.io/support@warmhutgroup.com' method = 'POST' id = 'enquire'>

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Warmhut Portfolio
-description: 'Our vast clientele speaks volume of our ability to enable your business leverage on the potential of the web. We are proud to have worked with these clients.'
 permalink: /portfolio/
 ---
 <section class = 'division about'>
@@ -9,7 +8,7 @@ permalink: /portfolio/
         <h1><span class = 'colorful'>Our Projects</span></h1>
         <div class = 'half'>
         <p>We are proud to have worked with several businesses within the region
-            to establish a digital foothold. We believe our vast clientele speaks volume 
+            . We believe our vast clientele speaks volume 
             of our ability to enable your business leverage on the potential of the 
             web.
         </p>

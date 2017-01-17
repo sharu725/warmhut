@@ -24,7 +24,8 @@ permalink: /about/
             <a class = 'team-f' href = 'https://ke.linkedin.com/in/dubois-maina-0ab04689' target = '_blank'>Joseph Maina</a>
             <div class = 'wisdom'>
             <p>
-                I am a talented creative designer and social media specialist with over 3 years of experience. I am well versed with Adobe Photoshop, Illustrator, Premiere and Aftereffects. I am in charge of conceptualization, design and implementation of all our social media campaigns.
+                I'm a graphics designer with over 3 years of experience. I'm well versed with Adobe Photoshop, Illustrator, and Aftereffects.
+                 I'm in charge of conceptualization and design behind all our social media campaigns.
             </p>
             </div>
         </div>
@@ -33,7 +34,7 @@ permalink: /about/
             <a class = 'team-f' a href = 'https://ke.linkedin.com/in/dan-weru-93b46311b' target = '_blank'>Daniel Waweru</a>
             <div class = 'wisdom'>
             <p>
-                I'm the lead web developer at Warmhut. To me, development is a user-centered creative process. With that in mind I
+                I'm the lead web developer at Warmhut. I approach development as a user-centered creative process. With that in mind I
                 see to it that our web products are elegant, fast and super responsive.
             </p>
             </div>
@@ -46,7 +47,7 @@ permalink: /about/
     <h1><span class = 'colorful'>Our Team is</span></h1>
     <div class = 'flex-panel'>
         <div class = 'flex-item trio dark'>
-        <div class = 'our-value'>Creative</div>
+        <div class = 'our-value'><p>Creative</p></div>
         <p>
             We are always at per with prevailing trends. More importantly, we are
             equally mindful of originality. Everyday, we set out to do something creative - something
@@ -54,14 +55,14 @@ permalink: /about/
         </p>
         </div>
         <div class = 'flex-item trio dark'>
-        <div class = 'our-value second'>Innovative</div>
+        <div class = 'our-value second'><p>Innovative</p></div>
         <p class = 'center-text'>
             Our primary focus is provide tangible value. We are ever looking for ways to give our customers
             a better edge. Deep down, we really believe that every product can be made better.
         </p>
         </div>
         <div class = 'flex-item trio dark'>
-            <div class = 'our-value'>Thorough</div>
+            <div class = 'our-value'><p>Thorough</p></div>
             <p>
                 Proper execution will turn even the humbliest of ideas into an absolute marvel. At Warmhut,
                 we arm ourselves with this mindset. We believe that anything worth doing is worth doing well.

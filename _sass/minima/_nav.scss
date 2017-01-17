@@ -28,14 +28,11 @@ header a{
 }
 .nav-menu li,
 .nav-brand{
-  padding:17.5px 0 12.5px 0;
+  padding:17.5px 0 12.5px 25px;
   transition: color 0.4s ease-out;
 }
 .nav-menu li:hover{
   color:#fff;
-}
-.nav-brand{
-  padding:2.5px 0;
 }
 .nav-brand,
 .nav-menu{
@@ -109,6 +106,41 @@ header a{
     width:100%;
     display:block;
 }
+
+.infinity {
+   position: relative;
+   width: 57px;
+}
+.fit{
+  height: 34px;
+  display:inline-block;
+  vertical-align:text-top;
+  margin-right:3px;
+  font-size:1.25em;
+}
+.infinity:before,
+.infinity:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:18px;
+  height:18px;
+  border-color: #fff #14cc33 #fff #14cc33;
+  border-style:groove;
+  border-width:4px;
+  border-radius: 50px 50px 0 50px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+ }
+.infinity:after {
+   left: auto;
+   right: 0;
+   border-radius: 50px 50px 50px 0;
+   -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+
 @media screen and (min-width:768px){
   header [class^='icon-'],
   .view-menu{
@@ -117,17 +149,17 @@ header a{
   .nav-brand,
   .nav-menu{
      display: inline-block;
+     vertical-align:text-top;
    }
    .nav-menu{
-     width:75%;
+     width:65%;
      height:initial;
      text-align:right;
      padding-right:50px;
    }
    .nav-brand{
-     width:22.5%;
+     width:32.5%;
      text-align:left;
-     padding-left:25px;
    }
    .nav-menu li{
      text-align:center;
@@ -155,16 +187,10 @@ header a{
 	left:50%;
 	margin-left:-10px;
 	animation:3s infinite linear;
-	-moz-animation:3s infinite linear;
-	-o-animation:3s infinite linear;
-	
 }
 .sending span:nth-child(2){
 	background:#fff;
-	animation:kiri 1.2s infinite linear;
-	-moz-animation:kiri 1.2s infinite linear;
-	-o-animation:kiri 1.2s infinite linear;
-	
+	animation:dance 1.2s infinite linear;
 }
 .sending span:nth-child(3){
 	background:#14cc66;
@@ -172,13 +198,10 @@ header a{
 }
 .sending span:nth-child(4){
 	background:#f00;
-	animation:kanan 1.2s infinite linear;
-	-moz-animation:kanan 1.2s infinite linear;
-	-o-animation:kanan 1.2s infinite linear;
+	animation:watch 1.2s infinite linear;
 }
 
-
-@keyframes kanan {
+@keyframes watch {
     0% {transform:translateX(20px);
     }
    
@@ -189,8 +212,7 @@ header a{
 	z-index:200;
 	}
 }
-
-@keyframes kiri {
+@keyframes dance {
      0% {transform:translateX(-20px);
 	z-index:200;
     }

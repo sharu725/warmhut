@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Start a Website
-description: 'As a team of talented Web developers, we are ready to go the extra mile and build fast, responsive and functional website for your business.'
+description: 'We are team of talented Web developers, ready to go the extra mile and build fast, responsive and functional website for your business.'
 permalink: /solutions/web
 ---
 <section class = 'about transparent'>
   <div class = ''>
     <div class = 'half'>
       <h1>A website for your business</h1>
-      <p>As a team of talented Web developers, we are ready to go the extra mile and build fast, responsive and functional website for your business.
+      <p>We are a team of talented Web developers, ready to go the extra mile and build fast, responsive and functional website for your business.
         Probably what distinguishes us from the crowd is our unrivalled affinity for results.
       </p>
     </div>
