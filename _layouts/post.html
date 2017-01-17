@@ -30,10 +30,12 @@ comments: true
     <ul class="post-list">
       <li><h2>Related Posts</h2></li>
       {% for post in site.posts %}
+        {% if post != page %}
         <li>
           <i class="icon icon-arrow"></i>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </aside>

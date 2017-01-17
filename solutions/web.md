@@ -50,10 +50,16 @@ permalink: /solutions/web
     </div>
   </div>
   <div class = 'center-text half'>
-    <h2>Other Services</h2>
-    <div class = 'expand-me green'>
-      <a href = '/solutions/brand'><i class = 'icon icon-share'></i> Brand and graphics design</a>
-      <a href = '/solutions/social'><i class = 'icon icon-share'></i> Promote your business on social media</a>
+    <h3>Other Services</h3>
+    <div class = 'expand-me flex-panel'>
+      <a href = '/solutions/brand' class = 'flex-item duo'>
+        <div class = 'service-icon green'><i class = 'icon icon-share'></i></div>
+        <p>Brand design</p>
+      </a>
+      <a href = '/solutions/social' class = 'flex-item'>
+        <div class = 'service-icon green'><i class = 'icon icon-share'></i></div> 
+        <p>Promote your business</p>
+      </a>
     </div>
   </div>
 </section>
