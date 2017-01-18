@@ -1,6 +1,7 @@
 ---
 layout: simple
 title: Contact Warmhut
+noindex: 'true'
 permalink: '/contact-us/'
 ---
 <section class = 'sasa insight whole'>

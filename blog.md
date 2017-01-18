@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Warmhut blog
-description: 'Tune in for updates - we post on every Monday and Friday. Should you like what you see, subscribe, comment or follow us on social media.'
+noindex: 'true'
 permalink: /blog/
 ---
 # <i class = 'icon icon-book'></i>

@@ -1,19 +1,13 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Warmhut
 email: support@warmhutgroup.com
+twitter: https://twitter.com/warmhutGroup/
+twitter_handle: '@warmhutgroup'
+facebook: https://web.facebook.com/warmhutpr/
 environment: production
-description: > # this means to ignore newlines until "baseurl:"
-   We are a young technology company focusing on enabling small businesses by providing them with the right technological tools to gain the relevant publicity.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://warmhutgroup.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: warmhutgroup
-github_username: onweru
+description: 'We are a tech startup that help businesses broaden their markets by cultivating a strong online presence.'
+baseurl: ""
+url: "https://warmhutgroup.com"
 disqus: 
   shortname: warmhut
 
