@@ -309,8 +309,7 @@ footer h4{
 .sasa{
   color:#fff;
   background-color:#000;
-  background-repeat:no-repeat;
-  background-position: top center;
+  background-position:top center;
   background-attachment:fixed;
   width:100%;
   height:100%;
@@ -412,11 +411,11 @@ input.submit{
 .bot{
   position:fixed;
   bottom:0;
+  right:0;
   width:45px;
   height:45px;
   border-radius:50%;
   font-size:1.25em;
-  right:15px;
   padding:6px 5px;
   background:radial-gradient(#14cc33,#14cc66);
   outline:none;
