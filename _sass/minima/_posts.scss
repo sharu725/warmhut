@@ -175,11 +175,11 @@ time{
     display: block;
     width: 100%;
     margin:0 auto;
-    padding: 0 84px 0 22px;
+    padding: 0 25px 0 15px;
     font-size: 1.2em;
     font-weight: 300;
     color: #fff;
-    line-height: 60px;
+    line-height: 50px;
     background: #14cc33;
     border-radius: 10px;
     cursor: pointer;
@@ -201,35 +201,36 @@ time{
     margin-top: 3px;
     transform: rotate(-135deg) translateY(-50%);
 }
-  .custom-options {
+.custom-options {
     position: absolute;
     display: block;
     top: 100%; left: 0; right: 0;
     min-width: 100%;
     margin: 15px 0;
-    border: 1px solid #222;
+    border: 1px solid transparent;
     border-radius: 4px;
     box-sizing: border-box;
-    box-shadow: 0 2px 1px rgba(0,0,0,.07);
+    box-shadow: 0 1px 1px rgba(0,0,0,.07);
     background: #fff;
     transition: all .4s ease-in-out;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     transform: translateY(-15px);
-  }
-  .custom-select.opened .custom-options {
+    padding:10px 0;
+}
+.custom-select.opened .custom-options {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
     transform: translateY(0);
-  }
+}
 .custom-options:before {
     position: absolute;
     display: block;
     content: '';
     bottom: 100%; right: 25px;
-    width: 7px; height: 7px;
+    width: 10px; height: 10px;
     margin-bottom: -4px;
     border-top: 1px solid #b5b5b5;
     border-left: 1px solid #b5b5b5;
