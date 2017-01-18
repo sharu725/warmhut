@@ -49,14 +49,14 @@ permalink: /solutions/web/
       </p>
     </div>
   </div>
-  <div class = 'center-text half'>
+  <div class = 'center-text' id = 'other'>
     <h3>Other Services</h3>
     <div class = 'expand-me flex-panel'>
-      <a href = '/solutions/brand/' class = 'flex-item duo'>
+      <a href = '/solutions/brand/' class = 'flex-item quad'>
         <div class = 'service-icon green'><i class = 'icon icon-share'></i></div>
         <p>Brand design</p>
       </a>
-      <a href = '/solutions/social/' class = 'flex-item'>
+      <a href = '/solutions/social/' class = 'flex-item quad'>
         <div class = 'service-icon green'><i class = 'icon icon-share'></i></div> 
         <p>Promote your business</p>
       </a>

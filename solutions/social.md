@@ -33,14 +33,14 @@ permalink: /solutions/social/
                 Ready for your aha moment?</p>
             </div>
         </div>
-        <div class = 'center-text half'>
+        <div class = 'center-text' id = 'other'>
             <h3>Other Services</h3>
             <div class = 'expand-me flex-panel'>
-            <a href = '/solutions/brand/' class = 'flex-item duo'>
+            <a href = '/solutions/brand/' class = 'flex-item quad'>
                 <div class = 'service-icon green'><i class = 'icon icon-share'></i></div>
                 <p>Brand design</p>
             </a>
-            <a href = '/solutions/web/' class = 'flex-item'>
+            <a href = '/solutions/web/' class = 'flex-item quad'>
                 <div class = 'service-icon green'><i class = 'icon icon-desktop'></i></div> 
                 <p>Start a website</p>
             </a>
