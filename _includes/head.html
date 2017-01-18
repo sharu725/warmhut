@@ -37,7 +37,6 @@
   <!--assets-->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400" rel="stylesheet">
   <link rel="canonical" href="{{ page.url | replace:'index.htm l','' | absolute_url }}">
@@ -56,7 +55,10 @@
         margin:0;
         padding:0;
       }
-     .insight{
+      .goal,
+      .insight{
+        background-repeat:no-repeat;}
+      .insight{
         background-image: url({{site.baseurl}}/assets/layout/creative.jpg);
       }
       .goal{
