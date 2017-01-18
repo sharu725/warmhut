@@ -4,8 +4,8 @@ title: Brand Design
 noindex: 'true'
 permalink: /solutions/brand/
 ---
-<section class = 'division'>
-  <div class = 'about weather transparent'>
+<section class = 'division weather'>
+  <div class = 'about transparent'>
       <div class = 'half'>
           <h1>Brand Design</h1>
           <p> While our experience has taught us that developing a brand is often daunting process, nothing could have 
