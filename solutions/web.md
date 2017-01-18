@@ -2,7 +2,7 @@
 layout: default
 title: Start a Website
 description: 'We are team of talented Web developers, ready to go the extra mile and build fast, responsive and functional website for your business.'
-permalink: /solutions/web
+permalink: /solutions/web/
 ---
 <section class = 'about transparent'>
   <div class = ''>
@@ -52,11 +52,11 @@ permalink: /solutions/web
   <div class = 'center-text half'>
     <h3>Other Services</h3>
     <div class = 'expand-me flex-panel'>
-      <a href = '/solutions/brand' class = 'flex-item duo'>
+      <a href = '/solutions/brand/' class = 'flex-item duo'>
         <div class = 'service-icon green'><i class = 'icon icon-share'></i></div>
         <p>Brand design</p>
       </a>
-      <a href = '/solutions/social' class = 'flex-item'>
+      <a href = '/solutions/social/' class = 'flex-item'>
         <div class = 'service-icon green'><i class = 'icon icon-share'></i></div> 
         <p>Promote your business</p>
       </a>

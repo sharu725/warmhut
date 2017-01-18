@@ -168,6 +168,7 @@ time{
 }
 .custom-select-wrapper select {
   display: none;
+  padding:15px;
 }
 .custom-select-trigger {
     position: relative;
@@ -175,7 +176,7 @@ time{
     width: 100%;
     margin:0 auto;
     padding: 0 84px 0 22px;
-    font-size: 22px;
+    font-size: 1.2em;
     font-weight: 300;
     color: #fff;
     line-height: 60px;

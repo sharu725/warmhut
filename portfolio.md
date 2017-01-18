@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Warmhut Portfolio
+noindex: 'true'
 permalink: /portfolio/
 ---
 <section class = 'division about'>

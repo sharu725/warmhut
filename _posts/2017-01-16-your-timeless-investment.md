@@ -3,7 +3,7 @@ layout: post
 permalink: /your-timeless-investment/
 author: 'dan weru'
 excerpt: 'It is mid -january and many pockets are weeping. There is no doubt that, to many, the sound of January sums up everything between hope and desperation. Could January really be the problem?'
-postimg: 'investment'
+image: 'investment'
 ---
 
 It is mid January and many pockets are weeping. There is no doubt that, to many, the sound of January sums up everything

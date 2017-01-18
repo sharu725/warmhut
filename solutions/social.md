@@ -2,7 +2,7 @@
 layout: default
 title: Socia Media Consulting
 description: 'The internet is now global marketplace. We will help you expand awareness for your product online so that you can maximize your reach at a fraction '
-permalink: /solutions/social
+permalink: /solutions/social/
 ---
 <section class = 'division'>
     <div class = 'transparent about weather'>
@@ -36,11 +36,11 @@ permalink: /solutions/social
         <div class = 'center-text half'>
             <h3>Other Services</h3>
             <div class = 'expand-me flex-panel'>
-            <a href = '/solutions/brand' class = 'flex-item duo'>
+            <a href = '/solutions/brand/' class = 'flex-item duo'>
                 <div class = 'service-icon green'><i class = 'icon icon-share'></i></div>
                 <p>Brand design</p>
             </a>
-            <a href = '/solutions/web' class = 'flex-item'>
+            <a href = '/solutions/web/' class = 'flex-item'>
                 <div class = 'service-icon green'><i class = 'icon icon-desktop'></i></div> 
                 <p>Start a website</p>
             </a>
