@@ -8,6 +8,6 @@
         {{ content }}
     </main>
     {% include chat.html %}
-    {% include footer.html %}
+    {% include footer.md %}
   </body>
 </html>
