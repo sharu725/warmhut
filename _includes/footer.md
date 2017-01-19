@@ -25,8 +25,7 @@
     <p class = 'center-text'>
       <a href = '/'>Copyrights  &copy; <span class = 'thisYear'></span> WarmHut</a>
     </p>
-    <script src='https://code.jquery.com/jquery-3.1.0.min.js' integrity='sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s='   crossorigin='anonymous'></script>
-    <script>
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
      {% include index.js %}
     </script>
 </footer>

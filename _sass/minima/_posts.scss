@@ -156,8 +156,7 @@ time{
     text-decoration:underline;
     color:#14cc33;
 }
-// select field
-.custom-select-wrapper,
+// select fieldset
 .custom-select {
   position: relative;
   display: block;
@@ -166,11 +165,7 @@ time{
   margin:0 auto;
   user-select: none;
 }
-.custom-select-wrapper select {
-  display: none;
-  padding:15px;
-}
-.custom-select-trigger {
+.select-trigger {
     position: relative;
     display: block;
     width: 100%;
@@ -184,7 +179,7 @@ time{
     border-radius: 10px;
     cursor: pointer;
 }
-.custom-select-trigger:after {
+.select-trigger:after {
     position: absolute;
     display: block;
     content: '';
@@ -197,7 +192,7 @@ time{
     transition: all .4s ease-in-out;
     transform-origin: 50% 0;
 }
-.custom-select.opened .custom-select-trigger:after {
+.custom-select.opened .select-trigger:after {
     margin-top: 3px;
     transform: rotate(-135deg) translateY(-50%);
 }
