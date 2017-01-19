@@ -1,0 +1,463 @@
+.macbook {
+  width: 300px;
+  min-height:40vh;
+  position: relative;
+  margin:30px auto 150px auto;
+  perspective: 750px;
+}
+.shadow {
+  position: absolute;
+  width: 120px;
+  height: 0px;
+  left: 80px;
+  top: 320px;
+  transform: rotateX(80deg) rotateY(0deg) rotateZ(0deg);
+  box-shadow: 0 0 120px 80px rgba(0,0,0,0.3);
+  animation: shadow infinite 9s ease;
+}
+.inner {
+  z-index: 20;
+  position: absolute;
+  width: 300px;
+  height: 192px;
+  left: 0;
+  top: 0;
+  transform-style: preserve-3d;
+  transform:rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
+  animation: rotate infinite 9s ease;
+}
+.screen {
+  width: 300px;
+  height: 192px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 7px;
+  background: #ddd;
+  transform-style: preserve-3d;
+  transform-origin: 50% 186px;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  animation: flip infinite 9s ease;
+  background-image: linear-gradient(45deg, rgba(0,0,0,0.34) 0%,rgba(0,0,0,0) 100%);
+  background-position: left bottom;
+  background-size: 600px 600px;
+  box-shadow: inset 0 1px 2px rgba(255,255,255,0.5);
+}
+.screen .infinity {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -12px 0 0 -10px;
+  transform: rotateY(180deg) translateZ(0.1px);
+}
+.screen .face-one {
+  width: 300px;
+  height: 192px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 7px;
+  background: #d3d3d3;
+  transform: translateZ(4px);
+  background-image: linear-gradient(45deg,rgba(0,0,0,0.24) 0%,rgba(0,0,0,0) 100%);
+}
+.screen .face-one .camera {
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background: #000;
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  margin-left: -3px;
+}
+.screen .face-one .display {
+  width: 280px;
+  height: 148px;
+  margin: 10px;
+  top:5px;
+  background-color:#111;
+  background-size: 100% 100%;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: inset 0 0 2px rgba(0,0,0,1);
+}
+.screen .face-one .display .shade {
+  position: absolute;
+  left: 0;
+  padding:0;
+  top:0;
+  width: 280px;
+  height: 148px;
+  background: linear-gradient(-135deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0.1) 47%,rgba(255,255,255,0) 48%);
+  animation: screen-shade infinite 9s ease;
+  background-size: 600px 400px;
+  background-position: 0px 0px;
+}
+.screen .face-one span {
+  position: absolute;
+  top: 170px;
+  left: 114px;
+  font-size: 10px;
+  color: #222;
+}
+.body {
+  width: 300px;
+  height: 192px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 7px;
+  background: #cbcbcb;
+  transform-style: preserve-3d;
+  transform-origin: 50% bottom;
+  transform: rotateX(-90deg);
+  animation: lid-body infinite 9s ease;
+  background-image: linear-gradient(45deg, rgba(0,0,0,0.24) 0%,rgba(0,0,0,0) 100%);
+}
+.body .face-one {
+  width: 300px;
+  height: 192px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 7px;
+  transform-style: preserve-3d;
+  background: #dfdfdf;
+  animation: lid-keyboard-area infinite 7s ease;
+  transform: translateZ(-2px);
+  background-image: linear-gradient(30deg, rgba(0,0,0,0.24) 0%,rgba(0,0,0,0) 100%);
+}
+.body .touchpad {
+  width: 97px;
+  height: 62px;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  border-radius: 4px;
+  margin: -88px 0 0 -36px;
+  background: #cdcdcd;
+  background-image: linear-gradient(30deg, rgba(0,0,0,0.24) 0%,rgba(0,0,0,0) 100%);
+  box-shadow: inset 0 0 3px #888;
+}
+.body .keyboard {
+  width: 280px;
+  height: 90px;
+  position: absolute;
+  left: 14px;
+  top: 70px;
+  border-radius: 8px;
+  transform-style: preserve-3d;
+  background: #cdcdcd;
+  background-image: linear-gradient(30deg, rgba(0,0,0,0.24) 0%,rgba(0,0,0,0) 100%);
+  box-shadow: inset 0 0 3px #777;
+  padding: 0 0 0 8px;
+}
+.keyboard .key {
+  width: 12px;
+  height: 12px;
+  background: #444;
+  float: left;
+  margin: 2.5px;
+  transform: translateZ(-4px);
+  border-radius: 2px;
+  box-shadow: 0 -3px 0 #222;
+  animation: keys infinite 9s ease;
+}
+.key.space {
+  width: 97px;
+}
+.key.f {
+  height: 6px;
+}
+.body .pad {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border-radius: 100%;
+  position: absolute;
+}
+.pad.one {
+  left: 40px;
+  top: 40px;
+}
+.pad.two {
+  right: 40px;
+  top: 40px;
+}
+.pad.three {
+  right: 40px;
+  bottom: 40px;
+}
+.pad.four {
+  left: 40px;
+  bottom: 40px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
+  }
+  5% {
+    transform: rotateX(-20deg) rotateY(-20deg) rotateZ(0deg);
+  }
+  20% {
+    transform: rotateX(30deg) rotateY(200deg) rotateZ(0deg);
+  }
+  25% {
+    transform: rotateX(-60deg) rotateY(150deg) rotateZ(0deg);
+  }
+  60% {
+    transform: rotateX(-20deg) rotateY(130deg) rotateZ(0deg);
+  }
+  65% {
+    transform: rotateX(-20deg) rotateY(120deg) rotateZ(0deg);
+  }
+  80% {
+    transform: rotateX(-20deg) rotateY(375deg) rotateZ(0deg);
+  }
+  85% {
+    transform: rotateX(-20deg) rotateY(357deg) rotateZ(0deg);
+  }
+  87% {
+    transform: rotateX(-20deg) rotateY(360deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(-20deg) rotateY(360deg) rotateZ(0deg);
+  }
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+    background-position: left bottom;
+  }
+  5% {
+    transform: rotateX(50deg);
+    background-position: left bottom;
+  }
+  20% {
+    transform: rotateX(-90deg);
+    background-position: -300px top;
+  }
+  25% {
+    transform: rotateX(15deg);
+    background-position: left bottom;
+  }
+  30% {
+    transform: rotateX(-5deg);
+    background-position: right top;
+  }
+  38% {
+    transform: rotateX(5deg);
+    background-position: right top;
+  }
+  48% {
+    transform: rotateX(0deg);
+    background-position: right top;
+  }
+  90% {
+    transform: rotateX(0deg);
+    background-position: right top;
+  }
+  100% {
+    transform: rotateX(0deg);
+    background-position: right center;
+  }
+}
+
+@keyframes lid-body {
+  0% {
+    transform: rotateX(-90deg);
+    
+  }
+  50% {
+    transform: rotateX(-90deg);
+    
+  }
+  100% {
+    transform: rotateX(-90deg);
+    
+  }
+}
+
+@keyframes lid-keyboard-area {
+  0% {
+     background-color: #dfdfdf;
+  }
+  50% {
+    background-color: #bbb;
+  }
+  100% {
+    background-color: #dfdfdf;
+  }
+}
+@keyframes screen-shade {
+  0% {
+    background-position: -20px 0px;
+  }
+  5% {
+    background-position: -40px 0px;
+  }
+  20% {
+    background-position: 200px 0;
+  }
+  50% {
+    background-position: -200px 0;
+  }
+  80% {
+    background-position: 0px 0px;
+  }
+  85% {
+    background-position: -30px 0;
+  }
+  90% {
+    background-position: -20px 0;
+  }
+  100% {
+    background-position: -20px 0px;
+  }
+}
+@keyframes keys {
+  0% {
+    box-shadow: 0 -2px 0 #222;
+  }
+  5% {
+    box-shadow: 1 -1px 0 #222;
+  }
+  20% {
+    box-shadow: -1px 1px 0 #222;
+  }
+  25% {
+    box-shadow: -1px 1px 0 #222;
+  }
+  60% {
+    box-shadow: -1px 1px 0 #222;
+  }
+  80% {
+    box-shadow: 0 -2px 0 #222;
+  }
+  85% {
+    box-shadow: 0 -2px 0 #222;
+  }
+  87% {
+    box-shadow: 0 -2px 0 #222;
+  }
+  100% {
+    box-shadow: 0 -2px 0 #222;
+  }
+}
+@keyframes shadow {
+  0% {
+    transform: rotateX(80deg) rotateY(0deg) rotateZ(0deg);
+    box-shadow: 0 0 120px 80px rgba(0,0,0,0.3);
+  }
+  5% {
+    transform: rotateX(80deg) rotateY(10deg) rotateZ(0deg);
+    box-shadow: 0 0 120px 80px rgba(0,0,0,0.3);
+  }
+  20% {
+    transform: rotateX(30deg) rotateY(-20deg) rotateZ(-20deg);
+    box-shadow: 0 0 100px 60px rgba(0,0,0,0.3);
+  }
+  25% {
+    transform: rotateX(80deg) rotateY(-20deg) rotateZ(50deg);
+    box-shadow: 0 0 70px 30px rgba(0,0,0,0.1);
+  }
+  60% {
+    transform: rotateX(80deg) rotateY(0deg) rotateZ(-50deg) translateX(30px);
+    box-shadow: 0 0 120px 80px rgba(0,0,0,0.3);
+  }
+  100% {
+    box-shadow: 0 0 120px 80px rgba(0,0,0,0.3);
+  }
+}
+//screen specials
+.screen-bar{
+  display:block;
+  position:relative;
+  width:100%;
+  height:20px;
+  padding-top:0;
+  padding-left:25px;
+  background-color:#f0f0f0;
+}
+.shade .flex-panel{
+  width:100%;
+  height:133px;
+  padding:0;
+}
+.shade .split{
+  width:49%;
+  padding:15px;
+  text-align:left;
+  height:100%;
+  background-color:#fff;
+}
+.split:first-child{
+  background:linear-gradient(#fff 50%, transparent);
+}
+.shade .split:nth-of-type(even){
+  background:linear-gradient(#111 50%, transparent);
+  color:#fff;
+  font-weight:300;
+}
+.toggle-icons,
+.toggle-icons:after,
+.toggle-icons:before{
+  border-radius:50%;
+  padding:5px;
+}
+.toggle-icons:after,
+.toggle-icons:before{
+  top:6px;
+  position:absolute;
+  content:'';
+}
+.toggle-icons{
+  background-color:#f0f000;
+  display:inline-block;
+}
+.toggle-icons:after{
+  background-color:#1aaf5c;
+  left:10px;
+}
+.toggle-icons:before{
+  background-color:#e94b35;
+  left:40px;
+}
+
+//
+.infinity {
+   position: relative;
+   width: 57px;
+}
+.fit{
+  height: 34px;
+  display:inline-block;
+  vertical-align:text-top;
+  margin-right:3px;
+  font-size:1.25em;
+}
+.infinity:before,
+.infinity:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:18px;
+  height:18px;
+  border-color: #fff #14cc33 #fff #14cc33;
+  border-style:groove;
+  border-width:4px;
+  border-radius: 50px 50px 0 50px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+ }
+.infinity:after {
+   left: auto;
+   right: 0;
+   border-radius: 50px 50px 50px 0;
+   -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
