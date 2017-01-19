@@ -88,11 +88,11 @@ header a{
   background-color:transparent;
 }
 .toggled .toggle-me:after{
-  padding:2px 15px;
+  padding:1px 15px;
   transform:rotate(45deg) translateY(-12.5px) translateX(-5px);
 }
 .toggled .toggle-me:before{
-  padding:2px 15px;
+  padding:1px 15px;
   transform:rotate(-45deg) translateY(12.5px) translateX(-5px);
 }
 
