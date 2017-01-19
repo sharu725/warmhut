@@ -26,6 +26,7 @@
       <a href = '/'>Copyrights  &copy; <span class = 'thisYear'></span> WarmHut</a>
     </p>
     <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
      {% include index.js %}
     </script>
 </footer>
