@@ -157,6 +157,7 @@ time{
     color:#14cc33;
 }
 // select fieldset
+.select-wrapper,
 .custom-select {
   position: relative;
   display: block;
@@ -164,6 +165,10 @@ time{
   max-width:400px;
   margin:0 auto;
   user-select: none;
+}
+.select-wrapper select {
+  display: none;
+  padding:15px;
 }
 .select-trigger {
     position: relative;
