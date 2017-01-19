@@ -6,6 +6,7 @@
         $('.thisYear').append(year.getFullYear());
         $('.view-menu').on('click', function(){
           $(this).siblings('.nav-menu').toggleClass('menu-open');
+          $(this).toggleClass('toggled');
         });
         $('.close-modal').on('click', function() {
             $('.contact').toggleClass('remove-modal').toggleClass('add-modal');

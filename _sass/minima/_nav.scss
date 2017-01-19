@@ -48,11 +48,54 @@ header a{
 }
 .view-menu{
   position:absolute;
-  right:25px;
-  top:0;
-  padding:5px 0;
+  right:15px;
+  width:60px;
+  height:60px;
+  text-align:center;
+  top:5px;
+  padding:5px 12px;
   cursor:pointer;
+  border-radius:5px;
 }
+.toggle-me{
+  position:relative;
+  margin-top:25px;
+  display:inline-block;
+}
+.toggle-me,
+.toggle-me:after,
+.toggle-me:before{
+  padding:1px 20px;
+  background-color:#fff;
+}
+.toggle-me:after,
+.toggle-me:before,{
+  content:'';
+  position:absolute;
+  left:0;
+  transition: all 0.3s ease-in-out; 
+}
+.toggle-me:after{
+  top:12.5px;
+}
+.toggle-me:before{
+  top:-12.5px;
+}
+.toggled{
+  border-radius:50%;
+}
+.toggled .toggle-me{
+  background-color:transparent;
+}
+.toggled .toggle-me:after{
+  padding:2px 15px;
+  transform:rotate(45deg) translateY(-12.5px) translateX(-5px);
+}
+.toggled .toggle-me:before{
+  padding:2px 15px;
+  transform:rotate(-45deg) translateY(12.5px) translateX(-5px);
+}
+
 .nav-brand{
   text-align:left;
   width:80%;

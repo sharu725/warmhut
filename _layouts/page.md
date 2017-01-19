@@ -30,6 +30,7 @@ layout: default
           </div>
         </div>
       </section>
+      <section>{% include screen.html %}</section>
       <section class = 'division'>
         <div class = 'sasa dev'>
           <div class = 'transparent'>
@@ -45,9 +46,9 @@ layout: default
                 These goals require technology, which evolves rapidly. That is where our Warmhut Team comes in. When you
                 partner with us, we do the heavy lifting for you so that you can concentrate on the non-technical aspects of your business.
               </p>
-              </div>
-              <a href = 'solutions' class = 'border'>Explore our solutions</a>
             </div>
+            <a href = 'solutions' class = 'border'>Explore our solutions</a>
           </div>
         </div>
       </section>
+</div>
