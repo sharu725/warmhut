@@ -7,8 +7,7 @@ permalink: /about/
 <section class = 'division'>
     <div class = 'sasa goal'>
         <div class = 'overlay'>
-        <h1><span class = 'colorful'>We are web enthusiasts</span></h1>
-        <h2>Warmhut empowers entrepreneurs</h2>
+        <h1>We empowers entrepreneurs</h1>
         <p class = 'half'>
             We are a tech startup that help businesses broaden their markets by cultivating a strong online presence. 
             Our intent is to be Africa’s leading provider of affordable web-tech solutions for small businesses.
@@ -17,7 +16,7 @@ permalink: /about/
         </div>
     </div>
     <div class = 'team transparent'>
-        <h1><span class = 'colorful'>Meet the team</span><i class = 'icon icon-elite green'></i></h1>
+        <h1>Meet the team<i class = 'icon icon-elite green'></i></h1>
         <div class = 'flex-panel'>
         <div class = 'flex-item duo'>
             <img src = '{{site.baseurl}}/assets/maina joseph.jpg'>
@@ -44,7 +43,7 @@ permalink: /about/
     </div>
 </section>
 <section class = 'transparent services'>
-    <h1><span class = 'colorful'>Our Team is</span></h1>
+    <h1>Our Team is</h1>
     <div class = 'flex-panel'>
         <div class = 'flex-item trio dark'>
         <div class = 'our-value'><p>Creative</p></div>

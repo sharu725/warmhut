@@ -65,7 +65,7 @@ header a{
 .toggle-me,
 .toggle-me:after,
 .toggle-me:before{
-  padding:1px 20px;
+  padding:1px 16px;
   background-color:#fff;
 }
 .toggle-me:after,
@@ -76,10 +76,10 @@ header a{
   transition: all 0.3s ease-in-out; 
 }
 .toggle-me:after{
-  top:12.5px;
+  top:10px;
 }
 .toggle-me:before{
-  top:-12.5px;
+  top:-10px;
 }
 .toggled{
   border-radius:50%;

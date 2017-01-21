@@ -6,8 +6,8 @@ permalink: /solutions/
 ---
 
 <section class = 'division'>
-  <div class = 'transparent about weather'>
-    <h1><span class = 'colorful'>Our Solutions</span></h1>
+  <div class = 'transparent about'>
+    <h1>Our Solutions</h1>
     <div class = 'half'>
         <p>We are passionate about shaping conversations around your brand. We make it our priority to bring your ideas to life to those who matters most to your journey.
         </p>
@@ -45,5 +45,48 @@ permalink: /solutions/
         </a>
       </div>
     </div>
-  </div>
+    <div class = 'transparent'>
+      <h2>Why use Warmhut</h2>
+      <div class = 'flex-panel'>
+        <div class = 'flex-item duo'>
+        Reach out to us
+        When you
+                partner with us, we do the heavy lifting for you so that you can concentrate on the non-technical aspects of your business.
+        </div>
+        <div class = 'flex-item duo'>
+        Choose a package
+        </div>
+        <div class = 'flex-item duo'>
+        Commit
+        </div>
+        <div class = 'flex-item duo'>
+        Review
+        </div>
+      </div>
+    </div>
+    <div class = 'transparent'>
+        <h2>Our Work</h2>
+        <div class = 'half'>
+        <p>We are proud to have worked with several businesses within the region
+            . We believe our vast clientele speaks volume 
+            of our ability to enable your business leverage on the potential of the 
+            web.
+        </p>
+        </div>
+        <div class ='flex-panel'>
+            <div class = 'flex-item project quad'>
+            <img src = '{{ site.baseurl }}/assets/logos/sikke.svg' alt = 'mikke logo'>
+            </div>
+            <div class = 'flex-item project quad'>
+            <img src = '{{ site.baseurl }}/assets/logos/mike.svg' alt = 'mike fashions logo'>
+            </div>
+            <div class = 'flex-item project quad'>
+            <img src = '{{ site.baseurl }}/assets/logos/onel.svg' alt = 'onel logo'>
+            </div>
+            <div class = 'flex-item project quad'>
+            <img src = '{{ site.baseurl }}/assets/logos/accomi.svg' alt = 'accomi logo'>
+            </div>
+        </div>
+      </div>
+       </div>
 </section>
