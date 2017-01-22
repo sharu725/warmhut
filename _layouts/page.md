@@ -7,7 +7,7 @@ layout: default
           <div class = 'overlay'>
             <h1>Build your brand with us.</h1>
             <p class = 'center-text half'>
-              We are web and marketing experts. We believe in your creativity and resolve to make a difference. That is why we have developed a set of solutions that will help you transform your ideas to profitability.
+              We are web and marketing experts. We believe in your creativity and resolve to make a difference. Our set of solutions will help you transform your ideas to profitability.
             </p>
             <div class = 'center-text bubbling'>
               <a href = '/solutions/web/' class = 'btn bright'>
@@ -22,9 +22,8 @@ layout: default
         <div class = 'transparent'>
           <h1><span class = 'colorful'>Our Solutions</span></h1>
           <div class = 'half'>
-            <p>We package our services as individuals pieces or as a set depending on your business needs. However, new businesses
-              could absolutely benefit from the entire set. We are interested in being part of your success story. It will be an honour to assist you expand your 
-              business at a fraction of your budget.</p>
+            <p>We package our services as individuals pieces or as a set depending on your business needs. You could also benefit from the entire set. Warmhut's solutions pack will help your
+            brand stand out.</p>
             <a  href = 'solutions' class = 'border'>Learn More</a>
           </div>
         </div>

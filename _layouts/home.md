@@ -8,6 +8,7 @@ layout: default
   <div class = 'flex-panel article'>
       <div class = 'flex-item tripple'>
           <ul class="post-list">
+            <h1>Latest Posts</h1
             {% for post in site.posts %}
             <li>
               <h2>
@@ -34,11 +35,18 @@ layout: default
       </div>
       <aside class = 'flex-item trio'>
         <ul class="post-list">
+         <li>
+          <form class = 'subscription'>
+           <input class = 'email' type = 'text' placeholder = 'subscribe for updates' name = 'email' required>
+           <input class = 'subscribe' type = 'submit' value = 'yes'>
+          </form>
+          </li>
           <li>
             <h2>Categories</h2>
             <div class = 'tags'>Business</div>
             <div class = 'tags'>Tech</div>
           </li>
+          <li><h2>Recent Posts</h2></li>
           {% for post in site.posts %}
             <li>
               <i class="icon icon-arrow"></i>

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Warmhut blog
+title: Warmhut Blog - Ideas Hub
 noindex: 'true'
 permalink: /blog/
 ---

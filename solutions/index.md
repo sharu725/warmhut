@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Solutions
+title: Warmhut Solutions | Best of web 
 description: 'We are passionate about shaping conversations around your brand. We make it our priority to bring your ideas to life to those who matters most to your journey.'
 permalink: /solutions/
 ---
@@ -47,7 +47,7 @@ permalink: /solutions/
     </div>
     <div class = 'transparent'>
       <h2>Why use Warmhut</h2>
-      <div class = 'flex-panel'>
+      <div class = 'flex-panel division'>
         <div class = 'flex-item duo'>
         Reach out to us
         When you
@@ -55,12 +55,6 @@ permalink: /solutions/
         </div>
         <div class = 'flex-item duo'>
         Choose a package
-        </div>
-        <div class = 'flex-item duo'>
-        Commit
-        </div>
-        <div class = 'flex-item duo'>
-        Review
         </div>
       </div>
     </div>
