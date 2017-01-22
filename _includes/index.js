@@ -93,7 +93,7 @@
       this._autoDuration = 0;
       this._container = element.querySelector('.container');
       this._interval = null;
-      this._nav = element.querySelector('nav');
+      this._nav = element.querySelector('.nav');
       this._slide = 0;
       this._touchAnchorX = 0;
       this._touchTime = 0;

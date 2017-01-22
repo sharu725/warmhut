@@ -41,7 +41,7 @@ permalink: /solutions/
         </p>
         <h3 class = 'value'>Promote your Business</h3>
         <p> We are bold and uniue in our execution. We approach social media the same way, ensuring your product reach your audience at a fraction of your budget.</p>
-          <p class = 'green'>Learn More</p>
+          <p class = 'green'>Learn More ...</p>
         </a>
       </div>
     </div>
@@ -62,7 +62,7 @@ permalink: /solutions/
         </div>
         <div class = 'flex-item duo'>
         <h2>Get the best of both</h2>
-        <p>We offer excellence at the best price possible.</p>
+        <!--<p>We offer excellence at the best price possible.</p>-->
         </div>
       </div>
     </div>
@@ -77,7 +77,7 @@ permalink: /solutions/
         </div>
         <div class ='flex-panel'>
         <section class = 'carousel'>
-            <nav></nav>
+            <div class = 'nav'></div>
             <div class = 'container'>
               <div class = 'slide project'>
               <img src = '{{ site.baseurl }}/assets/logos/sikke.svg' alt = 'mikke logo'>
