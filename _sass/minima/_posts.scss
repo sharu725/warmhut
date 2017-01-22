@@ -7,7 +7,7 @@ aside{
 }
 .post{
 margin:0 auto;
-padding:15px 25px;
+padding:15px 5px;
 line-height:27px;
 }
 .article{
@@ -90,6 +90,9 @@ p + figure{
     background-color:#111;
     border:0;
 }
+.blog .trio{
+    background-color:#f9f9f9;
+}
 .land .intro{
     color:#fff;
     width:100%;
@@ -110,8 +113,8 @@ p + figure{
 }
 .post-list li{
     background:#f9f9f9;
-    padding:15px;
-    margin:20px;
+    padding: 15px;
+    margin:15px 0;
 }
 .post-list h1{
     text-align:left;
@@ -181,7 +184,7 @@ time{
     color: #fff;
     line-height: 50px;
     background: #14cc33;
-    border-radius: 10px;
+    border-radius: 6px;
     cursor: pointer;
 }
 .select-trigger:after {

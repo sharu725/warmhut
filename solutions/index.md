@@ -21,7 +21,7 @@ permalink: /solutions/
           <h3 class = 'value'>Start a Website</h3>
           <p>Every business today needs a website. We have the expertise to create and maintain fast, responsive and sleek sites. Warmhut will be with you every step of the process.
           </p>
-          <div class = 'border'>Learn More</div>
+          <p class = 'green'>Learn More ...</p>
         </a>
       </div>
       <div class = 'flex-item trio' id = 'graphics'>
@@ -31,7 +31,7 @@ permalink: /solutions/
           </p>
           <h3 class = 'value'>Brand Design</h3>
           <p>We’re known for design. That’s how you know you’ll receive visually elegant, and creative logos for your brand. We craft our designs to fit into your business vision.</p>
-          <div class = 'border'>Learn More</div>
+          <p class = 'green'>Learn More ...</p>
         </a>
       </div>
       <div class = 'flex-item trio' id = 'social'>
@@ -41,17 +41,20 @@ permalink: /solutions/
         </p>
         <h3 class = 'value'>Promote your Business</h3>
         <p> We are bold and uniue in our execution. We approach social media the same way, ensuring your product reach your audience at a fraction of your budget.</p>
-          <div class = 'border'>Learn More</div>
+          <p class = 'green'>Learn More</p>
         </a>
       </div>
     </div>
     <div class = 'transparent'>
       <h2>Why use Warmhut</h2>
-      <div class = 'flex-panel division'>
+      <div class = 'flex-panel'>
         <div class = 'flex-item duo'>
-        Reach out to us
-        When you
-                partner with us, we do the heavy lifting for you so that you can concentrate on the non-technical aspects of your business.
+        <div class = 'screen-bar'>
+          <div class = 'toggle-icons'></div>
+        </div>
+        <div class = 'special-screen'>
+        When you partner with us, we do the heavy lifting for you so that you can concentrate on the non-technical aspects of your business.
+        </div>
         </div>
         <div class = 'flex-item duo'>
         Choose a package

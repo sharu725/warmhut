@@ -65,7 +65,7 @@
       });
       template += '</div></div>';
       
-      $(this).wrap('<div class="select-wrapper"></div>');
+      // $(this).wrap('<div class="select-wrapper"></div>');
       $(this).hide();
       $(this).after(template);
     });

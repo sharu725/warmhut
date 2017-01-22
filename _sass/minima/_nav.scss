@@ -24,11 +24,11 @@ header a{
  font-weight:300;
 }
 .nav-brand{
-  min-height:72px;
+  min-height:60px;
 }
 .nav-menu li,
 .nav-brand{
-  padding:17.5px 0 12.5px 25px;
+  padding:10px 25px;
   transition: color 0.4s ease-out;
 }
 .nav-menu li:hover{
@@ -59,7 +59,7 @@ header a{
 }
 .toggle-me{
   position:relative;
-  margin-top:25px;
+  margin-top:15px;
   display:inline-block;
 }
 .toggle-me,
@@ -88,12 +88,12 @@ header a{
   background-color:transparent;
 }
 .toggled .toggle-me:after{
-  padding:1px 15px;
-  transform:rotate(45deg) translateY(-12.5px) translateX(-5px);
+  padding:1px 12px;
+  transform:rotate(45deg) translateY(-10px) translateX(-4px);
 }
 .toggled .toggle-me:before{
-  padding:1px 15px;
-  transform:rotate(-45deg) translateY(12.5px) translateX(-5px);
+  padding:1px 12px;
+  transform:rotate(-45deg) translateY(10px) translateX(-4px);
 }
 
 .nav-brand{
@@ -103,16 +103,16 @@ header a{
 .menu-open{
   display:block;
   width:96%;
-  background-color:rgba(0,0,0,0.6);
+  background-color:transparent;
   color:#fff;
   height:100vh;
   padding:0 20px;
   overflow:scroll;
 }
 .menu-open li{
-  border-bottom:2px solid #111;
+  border-bottom:1px solid #222;
   text-align:left;
-  padding:35px 0 10px 35px;
+  padding:35px 0 10px 20px;
   transition:background 0.3s ease-in-out;
 }
 .menu-open li:first-child{
@@ -123,9 +123,8 @@ header a{
 }
 .icon-menu{
   font-size:1.5em;
-  color:#14CC33;
+  color:#14cc33;
 }
-
 .sub-menu{
     position:absolute;
     width:250px;
@@ -148,7 +147,6 @@ header a{
     width:100%;
     display:block;
 }
-
 .infinity {
    position: relative;
    width: 57px;
@@ -184,7 +182,9 @@ header a{
  }
 
 @media screen and (min-width:768px){
-  header [class^='icon-'],
+  header{
+    padding-top:12px;
+  }
   .view-menu{
     display:none;
   }
@@ -206,11 +206,11 @@ header a{
    .nav-menu li{
      text-align:center;
      display:inline-block;
-     min-width:100px;
+     min-width:150px;
      transition:color 0.3s ease-in-out;
    }
-   .nav-menu  li:hover > a{
-     color:#FF8600;
+   .nav-menu  li:not(.highlight):hover > a{
+     color:#14cc33;
    }
 }
 

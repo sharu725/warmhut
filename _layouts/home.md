@@ -36,9 +36,10 @@ layout: default
       <aside class = 'flex-item trio'>
         <ul class="post-list">
          <li>
+          <h2>Subscribe for updates</h2>
           <form class = 'subscription'>
-           <input class = 'email' type = 'text' placeholder = 'subscribe for updates' name = 'email' required>
-           <input class = 'subscribe' type = 'submit' value = 'yes'>
+           <input class = 'email' type = 'text' placeholder = 'Email' name = 'email' required>
+           <button class = 'subscribe' type = 'submit' value = 'yes'><i class = 'icon icon-arrow'></i></button>
           </form>
           </li>
           <li>

@@ -234,10 +234,6 @@ footer h4{
 .about h1{
   margin-top:60px;
 }
-.about .flex-panel:nth-of-type(odd):not(.land){
-  background-color:#000;
-  color:#fff;
-}
 .about > .flex-panel{
   padding-top:50px;
   padding-bottom:50px;
@@ -379,7 +375,7 @@ input{
   font-size:110%;
   outline:none;
   border:1px solid transparent;
-  border-radius:10px;
+  border-radius:6px;
   transition: border 0.3s ease-out;
 }
 input:hover,
@@ -407,7 +403,7 @@ input.submit{
   background:#14cc66;
 }
 .subscription{
-  padding:20px 0;
+  padding:0;
 }
 .email,
 .subscribe{
@@ -423,6 +419,8 @@ input.submit{
   width:75px;
   background-color:#14cc33;
   color:#fff;
+  font-size:1.2em;
+  outline:none;
   cursor:pointer;
 }
 .bot{
@@ -550,12 +548,11 @@ input.submit{
   100%{opacity:0;}
 }
 ::-webkit-input-placeholder {
-  color: #222;
+  color: #444;
 }
 h3.value{
   width:100%;
   padding:15px;
-  margin:0 auto 25px auto;
   text-align:center;
   text-transform:capitalize;
 }
@@ -578,6 +575,13 @@ h3.value{
   .trio,
   .quad{
     width:45%;
+  }
+  .highlight{
+    background-color:#14cc33;
+    border-radius:6px;
+  }
+  .highlight:hover{
+    background-color:#14cc66;
   }
   .tree > .duo{
     width:40%;
@@ -617,7 +621,7 @@ h3.value{
 @media screen and (min-width:769px){
   .flex-panel{
     padding-left:30px;
-    padding-right:30px;
+    padding-right:0;
   }
   .mono{
     width:96%;
