@@ -8,7 +8,7 @@ layout: default
   <div class = 'flex-panel article'>
       <div class = 'flex-item tripple'>
           <ul class="post-list">
-            <h1>Latest Posts</h1>
+            <!--<h1>Latest Posts</h1>-->
             {% for post in site.posts %}
             <li>
               <h2>

@@ -194,19 +194,19 @@ header a{
      vertical-align:text-top;
    }
    .nav-menu{
-     width:65%;
+     width:68%;
      height:initial;
      text-align:right;
      padding-right:50px;
    }
    .nav-brand{
-     width:32.5%;
+     width:29%;
      text-align:left;
    }
    .nav-menu li{
      text-align:center;
      display:inline-block;
-     min-width:150px;
+     min-width:125px;
      transition:color 0.3s ease-in-out;
    }
    .nav-menu  li:not(.highlight):hover > a{
