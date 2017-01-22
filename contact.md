@@ -10,11 +10,11 @@ permalink: '/contact-us/'
     <div class = 'piece'>
       <h1>Warmhut Help Center</h1>
       <form action = 'https://formspree.io/support@warmhutgroup.com' method = 'POST' id = 'enquire'>
-        <select name="Subject" id="Subject" class="custom-select subject" placeholder="Hello, I would like to">
+        <div class = 'select-wrapper'><select name="Subject" id="Subject" class="custom-select subject" placeholder="Hello, I would like to">
           <option value = 'Make a general inquiry'>Make a general inquiry</option>
           <option value = 'Request a price quote'>Request a price quote</option>
           <option value = 'Subscribe for mail updates'>Subscribe for mail updates</option>
-        </select>
+        </select></div>
         <input type = 'text' name = 'name' id = 'name' placeholder = 'Name' required>
         <input type = 'email' name = 'email' id = 'email' placeholder = 'Email address' required>
         <input type = 'submit' class = 'submit' value = 'Send'> 

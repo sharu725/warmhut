@@ -53,12 +53,13 @@
   display: inline-block;
   width:250px;
   padding:12.5px;
-  font-size:1.2em;
+  font-size:1.1em;
+  border-radius:6px;
   margin:5px;
   text-align:center;
   transition:background-color 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in;
 }
-.btn.bright{
+.bright{
   background-color:#fff;
   color:#000;
 }
@@ -66,7 +67,7 @@
   background-color:#14cc33;
   color:#fff;
 }
-.btn.hollow{
+.hollow{
   color:#222;
   width:200px;
   margin:5px 0;
@@ -123,7 +124,7 @@
 }
 .overlay{
   padding:90px 0 50px 0;
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.85);
   color:#fff;
 }
 .modal-body{
@@ -233,10 +234,6 @@ footer h4{
 .about h1{
   margin-top:60px;
 }
-.about .flex-panel:nth-of-type(odd):not(.land){
-  background-color:#000;
-  color:#fff;
-}
 .about > .flex-panel{
   padding-top:50px;
   padding-bottom:50px;
@@ -250,9 +247,7 @@ footer h4{
   padding-bottom:30px;
   display:block;
   margin:10px auto;
-  font-size:1.15em;
   text-align:center;
-  // color:inherit;
   background:transparent;
   z-index:2;
 }
@@ -268,7 +263,7 @@ footer h4{
 }
 .button{
   color:#fff;
-  font-size:125%;
+  font-size:115%;
   padding:10px 0;
   width:135px;
   display:inline-block;
@@ -380,7 +375,7 @@ input{
   font-size:110%;
   outline:none;
   border:1px solid transparent;
-  border-radius:10px;
+  border-radius:6px;
   transition: border 0.3s ease-out;
 }
 input:hover,
@@ -406,6 +401,27 @@ input.submit{
 }
 .submit:hover{
   background:#14cc66;
+}
+.subscription{
+  padding:0;
+}
+.email,
+.subscribe{
+  display:inline-block;
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #14cc33;
+}
+.email{
+ width:200px;
+
+}.subscribe{
+  width:75px;
+  background-color:#14cc33;
+  color:#fff;
+  font-size:1.2em;
+  outline:none;
+  cursor:pointer;
 }
 .bot{
   position:fixed;
@@ -532,18 +548,17 @@ input.submit{
   100%{opacity:0;}
 }
 ::-webkit-input-placeholder {
-  color: #222;
+  color: #444;
 }
 h3.value{
   width:100%;
   padding:15px;
-  margin:0 auto 25px auto;
   text-align:center;
   text-transform:capitalize;
 }
 .services .trio{
   padding:15px 15px 75px 15px;
-  font-size:110%;
+  font-size:105%;
 }
 .service-icon{
   padding:0 50px 25px 50px;
@@ -560,6 +575,13 @@ h3.value{
   .trio,
   .quad{
     width:45%;
+  }
+  .highlight{
+    background-color:#14cc33;
+    border-radius:6px;
+  }
+  .highlight:hover{
+    background-color:#14cc66;
   }
   .tree > .duo{
     width:40%;
@@ -599,7 +621,7 @@ h3.value{
 @media screen and (min-width:769px){
   .flex-panel{
     padding-left:30px;
-    padding-right:30px;
+    padding-right:0;
   }
   .mono{
     width:96%;

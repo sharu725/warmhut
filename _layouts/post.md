@@ -3,7 +3,7 @@ layout: default
 comments: true
 ---
 <article class = 'flex-panel transparent' itemscope itemtype="http://schema.org/BlogPosting">
-  <div class = 'flex-item tripple post article'>
+  <div class = 'flex-item duo post article'>
     <div class="post-header">
       <a href = '{{site.baseurl}}/blog'>
         <div><i class = 'icon icon-back' aria-hidden = 'true'></i>All Posts</a></div>

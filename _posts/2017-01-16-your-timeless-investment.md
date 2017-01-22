@@ -2,7 +2,6 @@
 layout: post
 permalink: /your-timeless-investment/
 author: 'dan weru'
-excerpt: 'It is mid -january and many pockets are weeping. There is no doubt that, to many, the sound of January sums up everything between hope and desperation. Could January really be the problem?'
 image: 'investment'
 ---
 
@@ -35,7 +34,6 @@ works and what doesn't then channel your efforts on that which works.
 execution is everything. Is execution your friend or your enemy? If execution is your friend, you probably are 
 learning from others. If not, you are probably learning from your own mistakes. Wouldn't it be better if you learned from others?
 
-<figure><img class = '' src = '{{site.baseurl}}/assets/posts/reading.jpg' alt = 'reading culture'></figure>
 Invest in your mind to be a great entrepreneur, a great salesman or whatever it is that you call yourself as a professional.
 Remember, we all sell our time at different rates. We are all salespeople. It is just that some of us are more aware of
 it and are determined to optimize their minutes for everything they are worth.
