@@ -228,8 +228,12 @@ footer h4{
   margin-bottom:12.5px;
 }
 .svg-icon{
-  width:60px;
+  width:150px;
   height:auto;
+}
+.weather .svg-icon{
+  background-color:#14cc33;
+  border-radius:50%;
 }
 .about h1{
   margin-top:60px;
@@ -320,7 +324,7 @@ footer h4{
   padding:25px;
   border-radius:10px;
   display:block;
-  background-color:#fff;
+  background-color:transparent;
   margin:15px;
   opacity:0.85;
   cursor:pointer;
