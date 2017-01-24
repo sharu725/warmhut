@@ -5,7 +5,6 @@
 	position: relative;
 	width: 100vw;
 }
-
 .carousel > .container {
 	display: flex;
 	flex-direction: row;
@@ -37,7 +36,6 @@
 .carousel > .nav a.current {
 	opacity: 1;
 }
-
 .carousel .slide {
 	flex-shrink: 0;
 	line-height: 1.4;
