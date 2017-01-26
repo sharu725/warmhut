@@ -25,7 +25,7 @@ layout: default
                   {% endif %}
                 </div>
                 <div class = 'flex-item duo'>
-                  <p >{{ post.excerpt }}</p>
+                  {{ post.excerpt }}
                 </div>
               </div>
             </li>
