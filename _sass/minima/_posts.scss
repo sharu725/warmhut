@@ -158,6 +158,16 @@ time{
     text-decoration:underline;
     color:#14cc33;
 }
+.important{
+    padding-left:25px;
+    font-style:italic;
+    color:#555;
+    line-height:1.7;
+    font-size:0.98em;
+}
+.important p{
+    padding:2px;
+}
 // select fieldset
 .select-wrapper,
 .custom-select {
