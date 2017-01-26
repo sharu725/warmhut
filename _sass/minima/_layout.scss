@@ -7,10 +7,10 @@
   height:auto;
   margin:25px auto;
   border-radius:50%;
-  border-color:#14cc33 #000 #14cc66;
+  border-color:#14cc33 #eee #14cc66 #eee;
   border-style:solid;
-  border-width:5px;
-  padding:5px;
+  border-width:3px;
+  padding:3px;
 }
 .team-f{
   display:block;
@@ -67,19 +67,6 @@
   background-color:#14cc33;
   color:#fff;
 }
-.hollow{
-  color:#111;
-  width:200px;
-  margin:5px 0;
-  padding:7.5px;
-  border-radius:40px;
-  background-color:transparent;
-  border:1.5px solid #14cc66;
-}
-.btn.hollow:hover{
-  color:#14cc33;
-  border:1.5px solid #14cc33;
-}
 .btn.btn.bright:hover{
   background-color:#eee;
 }
@@ -124,7 +111,7 @@
 }
 .overlay{
   padding:90px 0 50px 0;
-  background-color:rgba(0,0,0,0.85);
+  background-color:rgba(0,0,0,0.6);
   color:#fff;
 }
 .transparent{

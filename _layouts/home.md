@@ -26,7 +26,6 @@ layout: default
                 </div>
                 <div class = 'flex-item duo'>
                   <p >{{ post.excerpt }}</p>
-                  <a class="btn hollow" href="{{ post.url | relative_url }}">Continue ...</a>
                 </div>
               </div>
             </li>
