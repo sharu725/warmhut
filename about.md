@@ -44,6 +44,7 @@ permalink: /about/
 </section>
 <section class = 'transparent services'>
     <h1>Our Team is</h1>
+    <p><span class = 'special-border'></span></p>
     <div class = 'flex-panel'>
         <div class = 'flex-item trio dark'>
         <div class = 'our-value'><p>Creative</p></div>

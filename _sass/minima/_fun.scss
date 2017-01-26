@@ -412,10 +412,10 @@
   background-color:#fff;
 }
 .split:first-child{
-  background:linear-gradient(#fff 50%, transparent);
+  background:linear-gradient(rgba(255,255,255,0.9) 50%, transparent);
 }
 .shade .split:nth-of-type(even){
-  background:linear-gradient(#111 50%, transparent);
+  background:linear-gradient(rgba(0,0,0,0.9) 50%, transparent);
   color:#fff;
   font-weight:300;
 }
