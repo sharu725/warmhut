@@ -159,11 +159,16 @@ time{
     color:#14cc33;
 }
 .important{
-    padding-left:25px;
+    padding-left:15px;
+    color:#333;
     font-style:italic;
-    color:#555;
     line-height:1.7;
-    font-size:0.98em;
+    border-left:4px solid #aaa;
+    margin-bottom:15px;
+}
+.excerpt{
+    padding-top:0;
+    margin-top:0;
 }
 .important p{
     padding:2px;
