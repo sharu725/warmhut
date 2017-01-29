@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Warmhut Solutions | Best of web 
+title: Our Solutions 
 description: 'We are passionate about shaping conversations around your brand. We make it our priority to bring your ideas to life to those who matters most to your journey.'
 permalink: /solutions/
 ---

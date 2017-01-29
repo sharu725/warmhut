@@ -21,11 +21,11 @@ header a{
  font-weight:300;
 }
 .nav-brand{
-  min-height:60px;
+  min-height:56px;
 }
 .nav-menu li,
 .nav-brand{
-  padding:10px 25px;
+  padding:7.5px 25px;
   transition: color 0.4s ease-out;
 }
 .nav-menu li:hover{
@@ -177,40 +177,7 @@ header a{
    -webkit-transform: rotate(45deg);
    transform: rotate(45deg);
  }
-
-@media screen and (min-width:768px){
-  header{
-    padding-top:12px;
-  }
-  .view-menu{
-    display:none;
-  }
-  .nav-brand,
-  .nav-menu{
-     display: inline-block;
-     vertical-align:text-top;
-   }
-   .nav-menu{
-     width:68%;
-     height:initial;
-     text-align:right;
-     padding-right:50px;
-   }
-   .nav-brand{
-     width:29%;
-     text-align:left;
-   }
-   .nav-menu li{
-     text-align:center;
-     display:inline-block;
-     min-width:125px;
-     transition:color 0.3s ease-in-out;
-   }
-   .nav-menu  li:not(.highlight):hover > a{
-     color:#14cc33;
-   }
-}
-
+ 
 .sending{
   padding-top:60px;
 }
@@ -259,4 +226,37 @@ header a{
 	}
 	100%{transform:translateX(-20px);
 	}
+}
+
+@media screen and (min-width:768px){
+  header{
+    padding-top:7.5px;
+  }
+  .view-menu{
+    display:none;
+  }
+  .nav-brand,
+  .nav-menu{
+     display: inline-block;
+     vertical-align:text-top;
+   }
+   .nav-menu{
+     width:68%;
+     height:initial;
+     text-align:right;
+     padding-right:50px;
+   }
+   .nav-brand{
+     width:29%;
+     text-align:left;
+   }
+   .nav-menu li{
+     text-align:center;
+     display:inline-block;
+     min-width:125px;
+     transition:color 0.3s ease-in-out;
+   }
+   .nav-menu  li:not(.highlight):hover > a{
+     color:#14cc33;
+   }
 }

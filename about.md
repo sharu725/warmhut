@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Warmhut
+title: About Us
 description: 'We are a tech startup that help businesses broaden their markets by cultivating a strong online presence.'
 permalink: /about/
 ---

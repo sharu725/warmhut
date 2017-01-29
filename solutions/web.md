@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Warmhut | Start a Website
+title: Start a Website
 description: 'We are team of talented Web developers, ready to go the extra mile and build fast, responsive and functional website for your business.'
 permalink: /solutions/web/
 ---
