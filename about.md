@@ -38,7 +38,7 @@ permalink: /about/
             </p>
             </div>
         </div>
-        <a href = '/portfolio' class = 'border'>See our projects</a>
+        <a href = '/solutions#work' class = 'border'>See Our Work</a>
         </div>
     </div>
 </section>

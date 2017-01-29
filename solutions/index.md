@@ -37,7 +37,7 @@ permalink: /solutions/
       <div class = 'flex-item trio' id = 'social'>
         <a href = '/solutions/social/'>
         <p class = 'center-text'>
-          <svg class = 'svg-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505 505"><style>.a{fill:#FD8469;}.b{fill:#FFF;}</style><circle cx="252.5" cy="252.5" r="252.5" class="a"/><path d="M505 252.5c0 100.9-59.2 188-144.8 228.4 -11.6 5.5-23.7 10.1-36.2 13.8 -3.2 1-6.5 1.9-9.8 2.7 -19.8 5-40.5 7.6-61.8 7.6s-42-2.6-61.8-7.6c-3.3-0.8-6.5-1.7-9.8-2.7 -12.5-3.7-24.6-8.3-36.2-13.8C59.2 440.5 0 353.4 0 252.5 0 113 113 0 252.5 0S505 113 505 252.5z" class="a"/><circle cx="252.5" cy="327.2" r="46.2" fill="#324A5E"/><path d="M360.2 480.9c-11.6 5.5-23.7 10.1-36.2 13.8l-9.8-37.3v40c-19.8 5-40.5 7.6-61.8 7.6s-42-2.6-61.8-7.6v-40l-9.8 37.3c-12.5-3.7-24.6-8.3-36.2-13.8l1.5-12.1c5.4-45.7 33.9-79.2 67.2-79.2h78.1c33.3 0 61.8 33.5 67.2 79.2L360.2 480.9z" class="b"/><path d="M380 84.1H188.6C169 84.1 153 100 153 119.7v84.7c0 19.6 15.9 35.6 35.6 35.6h119.5c23.6 20.2 38.1 56 22.5 99.2 24.5-24.8 33.8-62.7 26.4-99.2h23.1c19.6 0 35.6-15.9 35.6-35.6v-84.7C415.6 100 399.7 84.1 380 84.1z" fill="#FFD05B"/><circle cx="214" cy="158.5" r="20.6" class="b"/><circle cx="284.3" cy="158.5" r="20.6" class="b"/><circle cx="354.6" cy="158.5" r="20.6" class="b"/></svg>
+          <svg class = 'svg-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505 505"><style>.a{fill:#14cc33;}.b{fill:#FFF;}</style><circle cx="252.5" cy="252.5" r="252.5" class="a"/><path d="M505 252.5c0 100.9-59.2 188-144.8 228.4 -11.6 5.5-23.7 10.1-36.2 13.8 -3.2 1-6.5 1.9-9.8 2.7 -19.8 5-40.5 7.6-61.8 7.6s-42-2.6-61.8-7.6c-3.3-0.8-6.5-1.7-9.8-2.7 -12.5-3.7-24.6-8.3-36.2-13.8C59.2 440.5 0 353.4 0 252.5 0 113 113 0 252.5 0S505 113 505 252.5z" class="a"/><circle cx="252.5" cy="327.2" r="46.2" fill="#324A5E"/><path d="M360.2 480.9c-11.6 5.5-23.7 10.1-36.2 13.8l-9.8-37.3v40c-19.8 5-40.5 7.6-61.8 7.6s-42-2.6-61.8-7.6v-40l-9.8 37.3c-12.5-3.7-24.6-8.3-36.2-13.8l1.5-12.1c5.4-45.7 33.9-79.2 67.2-79.2h78.1c33.3 0 61.8 33.5 67.2 79.2L360.2 480.9z" class="b"/><path d="M380 84.1H188.6C169 84.1 153 100 153 119.7v84.7c0 19.6 15.9 35.6 35.6 35.6h119.5c23.6 20.2 38.1 56 22.5 99.2 24.5-24.8 33.8-62.7 26.4-99.2h23.1c19.6 0 35.6-15.9 35.6-35.6v-84.7C415.6 100 399.7 84.1 380 84.1z" fill="#FFD05B"/><circle cx="214" cy="158.5" r="20.6" class="b"/><circle cx="284.3" cy="158.5" r="20.6" class="b"/><circle cx="354.6" cy="158.5" r="20.6" class="b"/></svg>
         </p>
         <h3 class = 'value'>Promote your Business</h3>
         <p> We are bold and uniue in our execution. We approach social media the same way, ensuring your product reach your audience at a fraction of your budget.</p>
@@ -45,16 +45,7 @@ permalink: /solutions/
         </a>
       </div>
     </div>
-    <!--<div class = 'transparent'>
-      <h2>Why use Warmhut</h2>
-      <span class = 'special-border'></span>
-      <div class = 'flex-panel'>
-        <div class = 'flex-item duo'>
-        <div class = 'screen-bar'>
-          <div class = 'toggle-icons'></div>
-        </div>
-    </div>-->
-    <div class = 'transparent'>
+    <div class = 'transparent' id = 'work'>
         <h2>Our Work</h2>
         <div class = 'half'>
         <p>We are proud to have worked with several businesses within the region
