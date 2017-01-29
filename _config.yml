@@ -2,7 +2,8 @@
 title: Warmhut
 email: support@warmhutgroup.com
 twitter: https://twitter.com/warmhutGroup/
-twitter_handle: '@warmhutgroup'
+twitter:
+  username: '@warmhutgroup'
 facebook: https://web.facebook.com/warmhutpr/
 environment: production
 description: 'We are a tech startup that help businesses broaden their markets by cultivating a strong online presence.'
@@ -16,9 +17,9 @@ markdown: kramdown
 theme: minima
 gems:
    - jekyll-feed
+   - jekyll-seo-tag
    - jekyll-sitemap
    - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
-include: ['.htaccess']

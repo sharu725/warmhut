@@ -72,7 +72,6 @@
 }
 .wrapper{
   width:100%;
-  padding-top:45px;
   margin:0;
 }
 .steps p{
@@ -108,7 +107,7 @@
 }
 .overlay{
   padding:90px 0 50px 0;
-  background-color:rgba(0,0,0,0.6);
+  background:linear-gradient(to right,rgba(0,0,0,0.65) 50%, rgba(0,0,0,0.55) 50%);
   color:#fff;
 }
 .transparent{
@@ -302,9 +301,6 @@ footer h4{
 .quad,
 .trio{
   width:100%;
-}
-.content{
-  padding-top:100px;
 }
 form{
   width:100%;

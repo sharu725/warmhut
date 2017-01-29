@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Warmhut | Promote your business
+title: Promote your business
 description: 'The internet is now global marketplace. We will help you expand awareness for your product online so that you can maximize your reach at a fraction '
 permalink: /solutions/social/
 ---

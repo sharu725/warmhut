@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Warmhut
+title: About Us
 description: 'We are a tech startup that help businesses broaden their markets by cultivating a strong online presence.'
 permalink: /about/
 ---
@@ -38,7 +38,7 @@ permalink: /about/
             </p>
             </div>
         </div>
-        <a href = '/portfolio' class = 'border'>See our projects</a>
+        <a href = '/solutions#work' class = 'border'>See Our Work</a>
         </div>
     </div>
 </section>

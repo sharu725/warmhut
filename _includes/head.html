@@ -2,38 +2,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
   {% if page.noindex %}{% include noindex.html %}{% endif %}
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta itemprop = 'description' name="description" content="{{ page.excerpt | default: page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">  
   {% if page.keywords %}<meta itemprop = 'keywords' content = '{{page.keywords}}'>{% endif %}
-  <!-- Open Graph -->
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
-  {% if page.title %}	
-  <meta property="og:title" content="{{ page.title }}">
-  {% else %}
-  <meta property="og:title" content="{{ site.title }}">
-  {% endif %}
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url }}/thumbs/{{ page.image }}" />
-  <meta property="og:site_name" content="{{site.title}}">
-  <meta property="article:publisher" content="{{site.facebook}}" />
-  <meta property="article:published_time" content="{{ page.date | date: "%b %-d, %Y" }}" />
-  {% if page.desc %}<meta property="og:description" content="{{ page.desc }}">
-  {% else %}<meta property="og:description" content="{{ site.description }}">{% endif %}
-	 <!-- Twitter Cards -->
-  <meta name="twitter:card" content="summary">
-  {% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }}">
-  {% else %}
-  <meta name="twitter:title" content="{{ site.title }}">
-  {% endif %}
-  {% if page.desc %}
-  <meta name="twitter:description" content="{{ page.desc }}">
-  {% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
-  {% endif %}
-  <meta name="twitter:site" content="{{site.twitter_handle}}" />
   <!--assets-->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico">

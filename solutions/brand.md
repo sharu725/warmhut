@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Warmhut | Give your brand an identity
+title: Give your brand an identity
 noindex: 'true'
 permalink: /solutions/brand/
 ---
