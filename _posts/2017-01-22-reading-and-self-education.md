@@ -34,7 +34,7 @@ or for the mere gratification of reading. Notice that my use of 'gratification' 
 Rather, it is used to refer to the act where people seek to broaden their perspective by opening themselves to a myriad of 
 experiences. High levels of self-discipline are necessary for one to successfully self-educate.
 
-Years of schooling has made many of us <a href = 'https://www.scotthyoung.com/blog/2007/09/05/dont-confuse-a-degree-with-learning/' class = 'link-follow' target = '_blank'>confuse a college degree for learning</a>. The truth is that such an outlook on learning is far from the truth. Anyone whose thinking is limited to such a narrow perspective results in 'a round man in a square hole'.
+Years of schooling has made many of us <a href = 'https://www.scotthyoung.com/blog/2007/09/05/dont-confuse-a-degree-with-learning/' class = 'link-follow' target = '_blank'>confuse a college degree for learning</a>. The truth is that such an outlook on learning is far from the truth. Anyone whose thinking is limited to such a narrow perspective inevitably becomes 'a round man in a square hole'.
 
 Compared to schooling, self-education tests one's will to strive. As I ponder on the subject, my head keeps rewinding part of 
 Trump's inaugural address, 'we understand that a nation is only living as long as it is striving'. If you think of
