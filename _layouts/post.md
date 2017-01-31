@@ -6,7 +6,7 @@ comments: true
   <div class = 'flex-item duo post article'>
     <div class="post-header">
       <a href = '{{site.baseurl}}/blog'>
-        <div><i class = 'icon icon-back' aria-hidden = 'true'></i>All Posts</a></div>
+        <div><i class = 'icon icon-back' aria-hidden = 'true'></i>All Posts</div>
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ page.date | date: "%b %-d, %Y" }}
         </time>
@@ -16,6 +16,7 @@ comments: true
           <span itemprop="name" class = 'author green'>{{ page.author }}</span></span>
         {% endif %}
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        </a>
     </div>
     <div class="post-content" itemprop="articleBody">
       {{ content }}
