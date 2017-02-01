@@ -11,23 +11,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400" rel="stylesheet">
   <link rel="canonical" href="{{ page.url | replace:'index.htm l','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   {% if site.google_analytics %}{% include google-analytics.html %}{% endif %}
   <style>
-      *{
-        box-sizing: border-box;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-overflow-scrolling: touch;
-      }
-      p,h2,h3,h4,ul,ol,li,header,nav,
-      div,section,footer,body,input,
-      textarea,label,img,figure,figcaption{
-        margin:0;
-        padding:0;
-      }
       .goal,
       .insight,
       .screen .face-one .display{
@@ -95,6 +82,10 @@
       .icon-cloud:before { content: '\f1be'; }
       .icon-agree:before { content: '\f2b5'; }
       .icon-twitter:before { content: '\f309'; }
+
+      {% capture include_to_scssify %}
+      {% include critical.scss %}
+      {% endcapture %}
+      {{ include_to_scssify | scssify }}
   </style>
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 </head>
