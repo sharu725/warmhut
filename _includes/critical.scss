@@ -30,6 +30,7 @@ body{
   -webkit-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
+  letter-spacing:0.2px; 
 }
 h1,h2, h3, h4{
   font-stretch:normal;
@@ -351,9 +352,7 @@ header a{
 
 .flex-panel{
   display:flex;
-  flex-wrap: wrap;
-  padding-left:10px;
-  padding-right:10px;
+  flex-direction:column;
   align-content:space-around;
 }
 .flex-item{
@@ -371,20 +370,21 @@ header a{
 
 @media screen and (min-width:769px){
   .flex-panel{
+    flex-flow:row wrap;
     padding-left:30px;
     padding-right:0;
   }
   .mono{
-    width:96%;
+    width:100%;
   }
   .duo{
-    width:45%;
+    width:49%;
   }
   .quad{
-    width:21%;
+    width:24.25%;
   }
   .tripple{
-    width:65%;
+    width:67.5%;
     padding:25px;
   }
   .trio{
