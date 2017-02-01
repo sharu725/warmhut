@@ -82,6 +82,10 @@
       .icon-cloud:before { content: '\f1be'; }
       .icon-agree:before { content: '\f2b5'; }
       .icon-twitter:before { content: '\f309'; }
+
+      {% capture include_to_scssify %}
+      {% include nav.scss %}
+      {% endcapture %}
+      {{ include_to_scssify | scssify }}
   </style>
-  <!--<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">-->
 </head>

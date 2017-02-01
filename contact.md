@@ -8,7 +8,6 @@ permalink: '/contact-us/'
   <div class = 'widget'>
     <div class = 'continue previous'><i class = 'icon icon-cancel'></i></div>
     <div class = 'piece'>
-      <h1>Warmhut Help Center</h1>
       <form action = 'https://formspree.io/support@warmhutgroup.com' method = 'POST' id = 'enquire'>
         <div class = 'select-wrapper'><select name="Subject" id="Subject" class="custom-select subject" placeholder="Hello, I would like to">
           <option value = 'Make a general inquiry'>Make a general inquiry</option>
