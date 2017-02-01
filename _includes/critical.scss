@@ -251,6 +251,16 @@ header a{
   background:transparent;
   z-index:2;
 }
+.btn{
+  display: inline-block;
+  width:250px;
+  padding:12.5px;
+  font-size:1.1em;
+  border-radius:6px;
+  margin:5px;
+  text-align:center;
+  transition:background-color 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in;
+}
 .half p{
   padding-left:20px;
   padding-right:20px;
@@ -415,6 +425,13 @@ header a{
      display:inline-block;
      min-width:125px;
      transition:color 0.3s ease-in-out;
+   }
+   .highlight{
+     background-color:#14cc33;
+     border-radius:5px;
+   }
+   .highlight:hover{
+     background-color:#14cc66;
    }
    .nav-menu  li:not(.highlight):hover > a{
      color:#14cc33;
