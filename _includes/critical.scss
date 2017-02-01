@@ -212,6 +212,49 @@ header a{
     width:100%;
     display:block;
 }
+.sasa{
+  color:#fff;
+  background-color:#000;
+  background-attachment:fixed;
+  width:100%;
+  height:84%;
+  min-height:540px;
+}
+.sasa p,
+.sasa h1,
+.sasa h2{
+  padding:5px 20px;
+  color:#fff;
+}
+.overlay{
+  padding:90px 0 50px 0;
+  background:linear-gradient(to right,rgba(0,0,0,0.65) 50%, rgba(0,0,0,0.55) 50%);
+  color:#fff;
+}
+.transparent{
+  padding:25px 0 ;
+}
+.division,
+.overlay{
+  display:block;
+  width:100%;
+  min-height:540px;
+  z-index:3;
+  position:relative;
+}
+.half{
+  max-width:750px;
+  padding-bottom:30px;
+  display:block;
+  margin:10px auto;
+  text-align:center;
+  background:transparent;
+  z-index:2;
+}
+.half p{
+  padding-left:20px;
+  padding-right:20px;
+}
 .infinity {
    position: relative;
    width: 57px;
