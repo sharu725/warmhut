@@ -4,10 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
   {% if page.noindex %}{% include noindex.html %}{% endif %}
-  <!--<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>-->
+  <meta name = 'google-site-verification' content = 'TLRK-3-wIkzXkZnNroKjhMm_Qxu_FiZx60_AsyWCPYo'/>
   <meta itemprop = 'description' name="description" content="{{ page.excerpt | default: page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">  
   {% if page.keywords %}<meta itemprop = 'keywords' content = '{{page.keywords}}'>{% endif %}
-  <!--assets-->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
