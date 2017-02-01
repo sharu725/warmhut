@@ -1,3 +1,15 @@
+*{
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+}
+p,h2,h3,h4,ul,li,header,nav,
+div,section,footer,body,input,
+textarea,label,img,figure,figcaption{
+  margin:0;
+  padding:0;
+}
 a{
   text-decoration: none;
   color:inherit;

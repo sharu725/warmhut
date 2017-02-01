@@ -214,3 +214,17 @@
     });
 })();
 
+(function() {
+    var font = document.createElement('link'); 
+    var font2 = document.createElement('link'); 
+    font.type = 'text/css'; 
+    font2.type = 'text/css'; 
+    font.rel = 'stylesheet';
+    font2.rel = 'stylesheet';
+    font.href = '/assets/main.css';
+    font2.href = 'https://fonts.googleapis.com/css?family=Nunito+Sans:300,400';
+    var s = document.getElementsByTagName('link')[0]; 
+    var t = document.getElementsByTagName('link')[0]; 
+    s.parentNode.insertBefore(font, s);
+    t.parentNode.insertBefore(font2, t);
+  })();
