@@ -228,9 +228,58 @@ header a{
 	}
 }
 
-@media screen and (min-width:768px){
+.flex-panel{
+  display:flex;
+  flex-wrap: wrap;
+  padding-left:10px;
+  padding-right:10px;
+  align-content:space-around;
+}
+.flex-item{
+  align-items:stretch;
+  flex-grow:1;
+  flex-shrink:0;
+  flex-basis:auto;
+}
+.duo,
+.mono,
+.quad,
+.trio{
+  width:100%;
+}
+
+@media screen and (min-width:769px){
+  .flex-panel{
+    padding-left:30px;
+    padding-right:0;
+  }
+  .mono{
+    width:96%;
+  }
+  .duo{
+    width:45%;
+  }
+  .quad{
+    width:21%;
+  }
+  .tripple{
+    width:65%;
+    padding:25px;
+  }
+  .trio{
+    width:30%;
+  }
+  .form-modal{
+    width:100%;
+    margin:auto;
+    border-radius:10px;
+    padding:5px;
+  }
+  .overlay{
+    padding-top:150px;
+  }
   header{
-    padding-top:7.5px;
+    padding-top:10px;
   }
   .view-menu{
     display:none;

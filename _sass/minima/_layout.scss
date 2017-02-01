@@ -283,25 +283,6 @@ footer h4{
 .project:hover{
   opacity:1;
 }
-.flex-panel{
-  display:flex;
-  flex-wrap: wrap;
-  padding-left:10px;
-  padding-right:10px;
-  align-content:space-around;
-}
-.flex-item{
-  align-items:stretch;
-  flex-grow:1;
-  flex-shrink:0;
-  flex-basis:auto;
-}
-.duo,
-.mono,
-.quad,
-.trio{
-  width:100%;
-}
 form{
   width:100%;
   max-width:540px;
@@ -514,82 +495,4 @@ h3.value{
   overflow:hidden;
   color:#222;
   background-color:transparent;
-}
-@media screen and (min-width: 567px){
-  .trio,
-  .quad{
-    width:45%;
-  }
-  .highlight{
-    background-color:#14cc33;
-    border-radius:6px;
-  }
-  .highlight:hover{
-    background-color:#14cc66;
-  }
-  .tree > .duo{
-    width:40%;
-    padding:0 50px;
-  }
-  .tree .duo:nth-of-type(even){
-    border-left:2px solid #d0d0d0;
-    position:relative;
-  }
-  .tree .duo:after{
-    content:'';
-    position:absolute;
-    background-color:#fff;
-    padding:5px;
-    border-style: solid;
-    border-color: #14cc33 #14cc66;
-    border-width: 5px;
-    border-radius:50%;
-    top:0;
-    left:-10px;
-  }
-   .tree .duo:nth-of-type(odd){
-    padding-right:25px;
-  }
-  .tree{
-    padding-bottom:60px;
-    padding-top:25px;
-  }
-  .tree h2{
-    text-align:left;
-  }
-  .overlay{
-    padding-top:180px;
-  }
-}
-
-@media screen and (min-width:769px){
-  .flex-panel{
-    padding-left:30px;
-    padding-right:0;
-  }
-  .mono{
-    width:96%;
-  }
-  .duo{
-    width:45%;
-  }
-  .quad{
-    width:21%;
-  }
-  .tripple{
-    width:65%;
-    padding:25px;
-  }
-  .trio{
-    width:30%;
-  }
-  .form-modal{
-    width:100%;
-    margin:auto;
-    border-radius:10px;
-    padding:5px;
-  }
-  .overlay{
-    padding-top:150px;
-  }
 }
