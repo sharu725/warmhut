@@ -233,7 +233,7 @@ header a{
   color:#fff;
 }
 .transparent{
-  padding:25px 0 ;
+  padding:0;
 }
 .division,
 .overlay{
@@ -352,6 +352,7 @@ header a{
 
 .flex-panel{
   display:flex;
+  flex-flow: row wrap;
   align-content:space-around;
 }
 .flex-item{
