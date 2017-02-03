@@ -34,7 +34,7 @@
         background-repeat:repeat;
       }
       .weather{
-        background-image:url({{site.baseurl}}/assets/layout/graphics.png);
+        background-image:url({{site.baseurl}}/assets/layout/graphics.png);-->-->
       }
       @font-face {
         font-family: 'fontello';

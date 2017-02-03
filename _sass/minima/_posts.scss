@@ -138,7 +138,7 @@ time{
     text-transform:capitalize;
 }
 .tags{
-    background-color:#14cc33;
+    background-color:#eee;
     padding:5px;
     display:inline-block;
     width:40%;
@@ -146,12 +146,11 @@ time{
     margin-top:10px;
     border-radius:5px;
     cursor:pointer;
-    color:#fff;
     text-align:center;
     transition: background-color 0.3s ease-in-out;
 }
 .tags:hover{
-    background-color:#14cc66;
+    background-color:#ddd;
     opacity:0.9;
 }
 .link-follow{
@@ -161,6 +160,7 @@ time{
 .important{
     padding-left:15px;
     color:#333;
+    background-color:#eee;
     font-style:italic;
     line-height:1.7;
     border-left:4px solid #aaa;
