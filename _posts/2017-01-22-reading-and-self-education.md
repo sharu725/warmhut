@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /self-education/
-title: The case for Self education
+title:  Education is not academia
 author: dan weru
 image: 'reading'
 ---

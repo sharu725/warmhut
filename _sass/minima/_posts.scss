@@ -158,12 +158,13 @@ time{
     color:#14cc33;
 }
 .important{
-    padding-left:15px;
-    color:#333;
-    background-color:#eee;
+    padding:15px;
+    // color:#556;
+    font-weight:300;
+    letter-spacing:0.3px;
     font-style:italic;
     line-height:1.7;
-    border-left:4px solid #aaa;
+    border-left:4px solid #14cc33;
     margin-bottom:15px;
 }
 .excerpt{
