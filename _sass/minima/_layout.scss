@@ -215,6 +215,12 @@ footer h4{
 .project:hover{
   opacity:1;
 }
+.perfect{
+  display:flex;
+  min-height:100vh;
+  justify-content:center;
+  align-items:center;
+}
 form{
   width:100%;
   max-width:540px;
