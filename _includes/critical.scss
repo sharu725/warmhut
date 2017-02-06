@@ -4,12 +4,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-overflow-scrolling: touch;
 }
-p,h2,h3,h4,ul,li,header,nav,
-div,section,footer,body,input,
-textarea,label,img,figure,figcaption{
-  margin:0;
-  padding:0;
-}
 a{
   text-decoration: none;
   color:inherit;
@@ -277,6 +271,23 @@ header a{
 }
 .svg-icon svg{
   width:90px;
+}
+input{
+  margin:20px auto;
+  display:block;
+  padding:12.5px;
+  width:100%;
+  max-width:400px;
+  background-color:#fff;
+  font-size:110%;
+  outline:none;
+  border:1px solid transparent;
+  border-radius:6px;
+  transition: border 0.3s ease-out;
+}
+input:hover,
+input:focus{
+  border:1px solid #14CC33;
 }
 .infinity {
    position: relative;
