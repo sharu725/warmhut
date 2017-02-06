@@ -402,23 +402,22 @@ input:focus{
   width:90%;
   height:auto;
   max-width:250px;
-  color:#14cc33;
   border-radius:5px;
-  background-color:rgba(0,0,0,0.65);
+  background:linear-gradient(#111,transparent);
   box-shadow:0 0 5px 5px rgba(255,255,255,0.1);
-  padding:15px;
+  padding:25px 10px;
 }
 .card h3{
   color:#fff;
 }
 .card:nth-child(2n){
-  transform:translateZ(-60px) rotateX(-33deg);
+  transform:translateX(-45px) rotateY(36deg) translateZ(-100px) ;
 }
 .card:first-child{
-  transform:rotateX(27deg);
+  transform:translateY(25px) translateX(75px) rotateY(36deg) translateZ(-100px);
 }
 .card:last-child{
-  transform:rotateX(63deg);
+  transform:translateY(-25px) translateX(75px) rotateY(36deg) translateZ(-100px);
 }
 .card svg{
   width:33%;
