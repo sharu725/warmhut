@@ -1,3 +1,9 @@
+p,h2,h3,h4,ul,li,header,nav,
+div,section,footer,body,input,
+textarea,label,img,figure,figcaption{
+  margin:0;
+  padding:0;
+}
 .team{
   padding-bottom:75px;
 }
@@ -95,15 +101,9 @@
   width:80%;
   text-align:center;
 }
-.right-text{
-  text-align: right;
-}
-.left-text{
-  text-align:left;
-}
 footer{
-  background:linear-gradient(#deeede,#eeeeee 50%);
-  padding-bottom:15px;
+  background-color:#eee;
+  padding-bottom:35px;
 }
 footer p:last-child{
   font-size:98%;
@@ -144,14 +144,6 @@ footer h4{
   padding:3px;
   margin-bottom:12.5px;
 }
-.svg-icon{
-  width:150px;
-  height:auto;
-}
-.weather .svg-icon{
-  background-color:#14cc33;
-  border-radius:50%;
-}
 .about h1{
   margin-top:60px;
 }
@@ -162,12 +154,6 @@ footer h4{
 }
 .underline{
   text-decoration: underline;
-}
-.button-group{
-  display:block;
-  margin:0 auto;
-  width:290px;
-  padding:5px;
 }
 .button{
   color:#fff;
@@ -209,7 +195,6 @@ footer h4{
   background-color:#fff;
   color:#000;
 }
-
 .project{
   padding:25px;
   border-radius:10px;
@@ -236,23 +221,6 @@ form{
   padding:25px;
   margin:7.5px auto;
   position:relative;
-}
-input{
-  margin:20px auto;
-  display:block;
-  padding:12.5px;
-  width:100%;
-  max-width:400px;
-  background-color:#fff;
-  font-size:110%;
-  outline:none;
-  border:1px solid transparent;
-  border-radius:6px;
-  transition: border 0.3s ease-out;
-}
-input:hover,
-input:focus{
-  border:1px solid #14CC33;
 }
 input.submit{
   width:100%;
@@ -299,12 +267,11 @@ input.submit{
   position:fixed;
   bottom:0;
   right:0;
-  width:45px;
-  height:45px;
-  border-radius:50%;
-  font-size:1.25em;
+  display:flex;
+  width:150px;
+  border-radius:3px;
   padding:6px 5px;
-  background:radial-gradient(#14cc33,#14cc66);
+  background-color:#14cc33;
   outline:none;
   color:#fff;
   cursor:pointer;
