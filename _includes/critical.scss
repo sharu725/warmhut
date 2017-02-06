@@ -233,7 +233,7 @@ header a{
   color:#fff;
 }
 .transparent{
-  padding:0;
+  padding:25px 0;
 }
 .division,
 .overlay{
@@ -265,6 +265,18 @@ header a{
 .half p{
   padding-left:20px;
   padding-right:20px;
+}
+.svg-icon{
+  width:140px;
+  height:140px;
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
+  background-color:#14cc33;
+  border-radius:50%;
+}
+.svg-icon svg{
+  width:90px;
 }
 .infinity {
    position: relative;
