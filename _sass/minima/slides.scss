@@ -3,7 +3,7 @@
 	overflow: hidden;
   padding: 40px 0;
 	position: relative;
-	width: 100vw;
+	width: 100%;
 }
 .carousel > .container {
 	display: flex;
@@ -18,7 +18,7 @@
 	left: 0;
 	position: absolute;
 	text-align: center;
-	width: 100vw;
+	width: 100%;
 	z-index: 1;
 }
 
@@ -40,5 +40,5 @@
 	flex-shrink: 0;
 	line-height: 1.4;
 	text-align: center;
-	width: 100vw;
+	width: 100%;
 }

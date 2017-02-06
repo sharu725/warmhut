@@ -65,7 +65,6 @@
       });
       template += '</div></div>';
       
-      // $(this).wrap('<div class="select-wrapper"></div>');
       $(this).hide();
       $(this).after(template);
     });
@@ -209,7 +208,7 @@
 
     var carousels = Array.prototype.map.call(document.querySelectorAll('.carousel'), function (element) {
       var carousel = new Carousel(element);
-      carousel.auto(5000);
+      carousel.auto(6000);
       return carousel;
     });
 })();

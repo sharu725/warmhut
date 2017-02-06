@@ -248,7 +248,7 @@ header a{
 }
 .btn{
   display: inline-block;
-  width:250px;
+  width:180px;
   padding:12.5px;
   font-size:1.1em;
   border-radius:6px;
@@ -390,7 +390,45 @@ input:focus{
 .trio{
   width:100%;
 }
-
+.cards{
+   display:flex;
+   flex-direction:column;
+   position:relative;
+   padding:0 25px 25px 25px;
+    perspective:700px;
+}
+.card{
+  margin:0 auto;
+  width:90%;
+  height:auto;
+  max-width:250px;
+  color:#14cc33;
+  border-radius:5px;
+  background-color:rgba(0,0,0,0.65);
+  box-shadow:0 0 5px 5px rgba(255,255,255,0.1);
+  padding:15px;
+}
+.card h3{
+  color:#fff;
+}
+.card:nth-child(2n){
+  transform:translateZ(-60px) rotateX(-33deg);
+}
+.card:first-child{
+  transform:rotateX(27deg);
+}
+.card:last-child{
+  transform:rotateX(63deg);
+}
+.card svg{
+  width:33%;
+  display:block;
+  min-width:60px;
+  margin:0 auto;
+}
+.left{
+  text-align:left;
+}
 @media screen and (min-width:769px){
   .flex-panel{
     flex-flow:row wrap;

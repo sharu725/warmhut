@@ -5,15 +5,18 @@ layout: default
       <section class = 'division'>
         <div class = 'sasa insight'>
           <div class = 'overlay'>
-            <h1>Build your brand with us.</h1>
-            <p class = 'center-text half'>
+            <div class = 'flex-panel'>
+            <div class = 'flex-item duo'>
+            <h1 class = 'left'>Build your brand with us.</h1>
+            <p class = 'left'>
               We are web and marketing experts. We believe in your creativity and resolve to make a difference. Our set of solutions will help you transform your ideas to profitability.
             </p>
-            <div class = 'center-text bubbling'>
-              <a href = '/solutions/web/' class = 'btn bright'>
-                Start a Website
-              </a>
-              <a href = '/solutions/social/' class = 'btn green'>Promote your Business</a>
+            <div class = 'center-text'>
+              <a href = '/solutions/web/' class = 'btn bright'>Start a Website</a>
+              <a href = '/solutions/web/' class = 'btn green'>Share</a>
+            </div>
+            </div>
+            <div class = 'flex-item duo'>{% include cool.html %}</div>
             </div>
           </div>
         </div>
